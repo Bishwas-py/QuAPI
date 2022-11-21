@@ -1,0 +1,59 @@
+import importlib
+import json
+from pathlib import Path
+import logging
+
+from routes.config import paths
+
+BASE_DIR = Path(__file__).resolve().parent
+
+# stout logging
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s [%(levelname)s] %(message)s",
+    handlers=[
+        logging.FileHandler("debug.log"),
+        logging.StreamHandler()
+    ]
+)
+
+
+def render_api(path):
+    """
+    Renders template, where actual path is unformulated slash containing string.
+    """
+    if path != "/":
+        path = path.lstrip('/')
+
+    #  paths[path] gives filename i.e. index.svelte
+    try:
+        mod = importlib.import_module(f"controllers.{paths[path]['controller_path']}")
+        return mod.context, "200 OK"
+    except KeyError as e:
+        error_message = f"400: {str(e)} not found"
+        logging.error(error_message)
+        return f"{error_message}", "400 NOT FOUND"
+
+
+# main server handler
+def app(environ, start_response):
+    path = environ.get("PATH_INFO")
+    raw, response = render_api(path)
+    dumped_data = json.dumps(raw)
+    start_response(
+        response, [
+            ("Content-Type", "application/json"),
+            ("Content-Length", str(len(dumped_data)))
+        ]
+    )
+    return iter([dumped_data.encode("utf-8")])
+
+
+if __name__ == "__main__":
+    from wsgiref.simple_server import make_server
+
+    httpd = make_server("localhost", 8000, app)
+    logging.info("Serving on port 8000...")
+    logging.info("Press Ctrl+C to stop.")
+    logging.info('Visit http://localhost:8000/')
+    httpd.serve_forever()

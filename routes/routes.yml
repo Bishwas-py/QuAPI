@@ -1,0 +1,5 @@
+root: posts.index
+resources:
+  - posts
+  - comments
+  - home
