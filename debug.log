@@ -374,3 +374,53 @@
 2022-11-22 17:22:23,957 [INFO] Visit http://localhost:8000/
 2022-11-22 17:22:25,338 [INFO] [GET] Request: /names
 2022-11-22 17:22:25,348 [INFO] Controller method: <function get at 0x7fc53b568d30>
+2022-11-22 17:23:10,000 [INFO] [GET] Request: /names
+2022-11-22 17:23:10,001 [INFO] Controller method: <function get at 0x7fc53b568d30>
+2022-11-22 17:24:07,257 [INFO] Serving on port 8000...
+2022-11-22 17:24:07,258 [INFO] Press Ctrl+C to stop.
+2022-11-22 17:24:07,258 [INFO] Visit http://localhost:8000/
+2022-11-22 17:24:57,718 [INFO] Serving on port 8000...
+2022-11-22 17:24:57,719 [INFO] Press Ctrl+C to stop.
+2022-11-22 17:24:57,719 [INFO] Visit http://localhost:8000/
+2022-11-22 17:28:35,298 [INFO] Serving on port 8000...
+2022-11-22 17:28:35,298 [INFO] Press Ctrl+C to stop.
+2022-11-22 17:28:35,298 [INFO] Visit http://localhost:8000/
+2022-11-22 17:28:47,138 [INFO] Serving on port 8000...
+2022-11-22 17:28:47,138 [INFO] Press Ctrl+C to stop.
+2022-11-22 17:28:47,138 [INFO] Visit http://localhost:8000/
+2022-11-22 17:29:10,185 [INFO] Serving on port 8000...
+2022-11-22 17:29:10,186 [INFO] Press Ctrl+C to stop.
+2022-11-22 17:29:10,186 [INFO] Visit http://localhost:8000/
+2022-11-22 17:29:11,474 [INFO] [GET] Request: /home/home
+2022-11-22 17:29:11,478 [INFO] Controller method: <function get at 0x7efe4fb80e50>
+2022-11-22 17:32:02,166 [INFO] Serving on port 8000...
+2022-11-22 17:32:02,167 [INFO] Press Ctrl+C to stop.
+2022-11-22 17:32:02,167 [INFO] Visit http://localhost:8000/
+2022-11-22 17:32:16,162 [INFO] Serving on port 8000...
+2022-11-22 17:32:16,162 [INFO] Press Ctrl+C to stop.
+2022-11-22 17:32:16,162 [INFO] Visit http://localhost:8000/
+2022-11-22 17:32:16,991 [INFO] [GET] Request: /posts/index
+2022-11-22 17:32:16,994 [INFO] Controller method: <function get at 0x7f0af94d0d30>
+2022-11-22 17:32:46,830 [INFO] [GET] Request: /posts/index
+2022-11-22 17:32:46,831 [INFO] Controller method: <function get at 0x7f0af94d0d30>
+2022-11-22 17:32:50,160 [INFO] [GET] Request: /posts/index
+2022-11-22 17:32:50,160 [INFO] Controller method: <function get at 0x7f0af94d0d30>
+2022-11-22 17:49:04,871 [INFO] [GET] Request: /posts/index
+2022-11-22 17:49:04,871 [INFO] Controller method: <function get at 0x7f0af94d0d30>
+2022-11-22 17:49:12,954 [INFO] [GET] Request: /posts/index
+2022-11-22 17:49:12,955 [INFO] Controller method: <function get at 0x7f0af94d0d30>
+2022-11-22 17:49:24,266 [INFO] [GET] Request: /posts/show
+2022-11-22 17:49:24,267 [INFO] Controller method: <function get at 0x7f0af94d12d0>
+2022-11-22 17:51:55,477 [INFO] Serving on port 8000...
+2022-11-22 17:51:55,477 [INFO] Press Ctrl+C to stop.
+2022-11-22 17:51:55,477 [INFO] Visit http://localhost:8000/
+2022-11-22 17:53:00,705 [INFO] [GET] Request: /posts/index
+2022-11-22 17:53:34,875 [INFO] [GET] Request: /posts/index
+2022-11-22 17:55:25,180 [INFO] [GET] Request: /posts/index
+2022-11-22 17:55:30,010 [INFO] [POST] Request: /posts/index
+2022-11-22 17:55:30,011 [ERROR] Method POST not found in posts.index
+2022-11-22 17:55:52,251 [INFO] Serving on port 8000...
+2022-11-22 17:55:52,251 [INFO] Press Ctrl+C to stop.
+2022-11-22 17:55:52,251 [INFO] Visit http://localhost:8000/
+2022-11-22 17:55:57,342 [INFO] [POST] Request: /posts/index
+2022-11-22 17:56:06,373 [INFO] [POST] Request: /posts/index

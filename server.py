@@ -26,6 +26,9 @@ def render_api(environ):
     """
     request = Request(environ)
 
+    if len(request.path.split("/")) == 2:
+        request.path = f"{request.path}/index"
+
     controller_name = paths[request.path]['controller_name']
 
     if type(request.method) is not str:
@@ -41,13 +44,15 @@ def render_api(environ):
         mod = importlib.import_module(f"controllers.{controller_name}")
         if hasattr(mod, request.method.lower()):
             controller_method = getattr(mod, request.method.lower())
-            logging.info(f"Controller method: {controller_method}")
             return controller_method(request), "200 OK"
         else:
             logging.error(f"Method {request.method} not found in {controller_name}")
             return "Method not allowed.", "405 METHOD NOT ALLOWED"
+
     except ModuleNotFoundError:
+        logging.error(f"Controller {controller_name} not found.")
         return "Not Found.", "404 NOT FOUND"
+
     except KeyError as e:
         error_message = f"400: {str(e)} NOT FOUND"
         logging.error(error_message)

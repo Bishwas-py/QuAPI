@@ -35,8 +35,10 @@ for key, value in controller_tweaks.items():
         path = value.get("path")
         allowed_methods = value.get("allowed_methods")
         paths.update({
-            f"{path}": {'controller_name': key},
-            "allowed_methods": allowed_methods
+            f"{path}": {
+                'controller_name': key,
+                "allowed_methods": allowed_methods
+            },
         })
 
 for key, value in path_tweaks.items():
@@ -54,7 +56,7 @@ if resources:
             for controller_file in controllers_dir:
                 no_extension_controller_file_name = re.sub(r'\.py$', '', controller_file)
                 controller_name = f"{resource}.{no_extension_controller_file_name}"
-                path = f"{resource}/{no_extension_controller_file_name}"
+                path = f"/{resource}/{no_extension_controller_file_name}"
                 paths.update(
                     {
                         path: {
