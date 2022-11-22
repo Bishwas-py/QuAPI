@@ -1,0 +1,14 @@
+root: posts.index # this path can't be overridden
+resources:
+  - posts
+  - comments
+  - home
+tweaks:
+  controller:
+    posts.show:
+      path: /names # this path is primary
+      allowed_methods: [ GET, POST ]
+
+  path:
+    /favicon.ico: # this path is secondary
+      controller: home.home

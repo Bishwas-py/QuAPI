@@ -1,8 +1,5 @@
-def getContext() -> dict:  # in future will be using id
-    return {
-        "id": 1,
-        "content": "This framework is too good to be true!"
-    }
+from typing import Tuple, Any
 
 
-context = getContext()
+def get(request) -> tuple[Any, str]:  # in future will be using id
+    return request.headers, "html"

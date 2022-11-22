@@ -190,3 +190,187 @@
 2022-11-22 13:44:51,017 [INFO] Request: {'path': '/zz', 'headers': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9', 'method': 'GET', 'body': ''}
 2022-11-22 13:45:46,329 [INFO] Request: {'path': '/zz', 'headers': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9', 'method': 'GET', 'body': ''}
 2022-11-22 13:45:58,802 [INFO] Request: {'path': '/zz', 'headers': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9', 'method': 'GET', 'body': ''}
+2022-11-22 14:06:49,633 [INFO] Serving on port 8000...
+2022-11-22 14:06:49,633 [INFO] Press Ctrl+C to stop.
+2022-11-22 14:06:49,633 [INFO] Visit http://localhost:8000/
+2022-11-22 14:07:21,022 [INFO] Serving on port 8000...
+2022-11-22 14:07:21,022 [INFO] Press Ctrl+C to stop.
+2022-11-22 14:07:21,022 [INFO] Visit http://localhost:8000/
+2022-11-22 14:07:22,537 [INFO] Request: <essentials.Request object at 0x7f7f73bf0e80>
+2022-11-22 14:08:40,866 [INFO] Serving on port 8000...
+2022-11-22 14:08:40,866 [INFO] Press Ctrl+C to stop.
+2022-11-22 14:08:40,866 [INFO] Visit http://localhost:8000/
+2022-11-22 14:08:42,266 [INFO] Request: <essentials.Request object at 0x7fb4b4196800>
+2022-11-22 14:08:43,229 [INFO] Request: <essentials.Request object at 0x7fb4b4196620>
+2022-11-22 14:13:29,765 [INFO] Serving on port 8000...
+2022-11-22 14:13:29,765 [INFO] Press Ctrl+C to stop.
+2022-11-22 14:13:29,765 [INFO] Visit http://localhost:8000/
+2022-11-22 14:13:31,047 [INFO] Request: <essentials.Request object at 0x7fb9491f0f70>
+2022-11-22 14:13:31,950 [INFO] Request: <essentials.Request object at 0x7fb9491f0d60>
+2022-11-22 14:13:32,411 [INFO] Request: <essentials.Request object at 0x7fb9491f0eb0>
+2022-11-22 14:13:32,665 [INFO] Request: <essentials.Request object at 0x7fb9491f1360>
+2022-11-22 14:13:33,234 [INFO] Request: <essentials.Request object at 0x7fb9491f0f70>
+2022-11-22 14:13:49,709 [INFO] Serving on port 8000...
+2022-11-22 14:13:49,709 [INFO] Press Ctrl+C to stop.
+2022-11-22 14:13:49,709 [INFO] Visit http://localhost:8000/
+2022-11-22 14:13:50,833 [INFO] Request: <essentials.Request object at 0x7faa7cda6a10>
+2022-11-22 14:13:55,845 [INFO] Serving on port 8000...
+2022-11-22 14:13:55,845 [INFO] Press Ctrl+C to stop.
+2022-11-22 14:13:55,846 [INFO] Visit http://localhost:8000/
+2022-11-22 14:13:59,667 [INFO] Request: <essentials.Request object at 0x7fe037f1ea40>
+2022-11-22 14:14:13,899 [INFO] Serving on port 8000...
+2022-11-22 14:14:13,899 [INFO] Press Ctrl+C to stop.
+2022-11-22 14:14:13,899 [INFO] Visit http://localhost:8000/
+2022-11-22 14:14:15,692 [INFO] Request: <essentials.Request object at 0x7fa5d4b6aa70>
+2022-11-22 14:14:17,873 [INFO] Request: <essentials.Request object at 0x7fa5d4b6a890>
+2022-11-22 14:15:59,371 [INFO] Request: <essentials.Request object at 0x7fa5d4b6a9b0>
+2022-11-22 14:36:12,370 [INFO] Request: <essentials.Request object at 0x7fa5d4b6a350>
+2022-11-22 14:36:13,028 [INFO] Request: <essentials.Request object at 0x7fa5d4b6a620>
+2022-11-22 14:36:13,226 [INFO] Request: <essentials.Request object at 0x7fa5d4b6ab30>
+2022-11-22 14:36:13,410 [INFO] Request: <essentials.Request object at 0x7fa5d4b6aa40>
+2022-11-22 14:56:40,476 [INFO] Serving on port 8000...
+2022-11-22 14:56:40,476 [INFO] Press Ctrl+C to stop.
+2022-11-22 14:56:40,476 [INFO] Visit http://localhost:8000/
+2022-11-22 14:56:46,331 [INFO] Request: <essentials.Request object at 0x7fbe0d6be3b0>
+2022-11-22 14:57:44,262 [INFO] Serving on port 8000...
+2022-11-22 14:57:44,262 [INFO] Press Ctrl+C to stop.
+2022-11-22 14:57:44,262 [INFO] Visit http://localhost:8000/
+2022-11-22 14:57:48,554 [INFO] Request: <essentials.Request object at 0x7fee8c28bfd0>
+2022-11-22 15:05:04,674 [INFO] Serving on port 8000...
+2022-11-22 15:05:04,674 [INFO] Press Ctrl+C to stop.
+2022-11-22 15:05:04,674 [INFO] Visit http://localhost:8000/
+2022-11-22 15:33:34,466 [INFO] Serving on port 8000...
+2022-11-22 15:33:34,466 [INFO] Press Ctrl+C to stop.
+2022-11-22 15:33:34,466 [INFO] Visit http://localhost:8000/
+2022-11-22 15:33:45,043 [INFO] Request: <essentials.Request object at 0x7f138488ffd0>
+2022-11-22 15:34:00,738 [INFO] Request: <essentials.Request object at 0x7f138488fa60>
+2022-11-22 15:34:01,764 [INFO] Request: <essentials.Request object at 0x7f138488fa60>
+2022-11-22 15:40:37,168 [INFO] Serving on port 8000...
+2022-11-22 15:40:37,169 [INFO] Press Ctrl+C to stop.
+2022-11-22 15:40:37,169 [INFO] Visit http://localhost:8000/
+2022-11-22 15:40:41,234 [INFO] Request: <essentials.Request object at 0x7ff3b235a590>
+2022-11-22 15:40:48,605 [INFO] Request: <essentials.Request object at 0x7ff3b235a3b0>
+2022-11-22 15:41:30,914 [INFO] Serving on port 8000...
+2022-11-22 15:41:30,914 [INFO] Press Ctrl+C to stop.
+2022-11-22 15:41:30,914 [INFO] Visit http://localhost:8000/
+2022-11-22 15:41:32,509 [INFO] Request: <essentials.Request object at 0x7fb54d8be5c0>
+2022-11-22 15:42:22,550 [INFO] Serving on port 8000...
+2022-11-22 15:42:22,550 [INFO] Press Ctrl+C to stop.
+2022-11-22 15:42:22,550 [INFO] Visit http://localhost:8000/
+2022-11-22 15:42:24,040 [INFO] Request: <essentials.Request object at 0x7f2108103a00>
+2022-11-22 15:43:06,261 [INFO] Serving on port 8000...
+2022-11-22 15:43:06,262 [INFO] Press Ctrl+C to stop.
+2022-11-22 15:43:06,262 [INFO] Visit http://localhost:8000/
+2022-11-22 15:43:31,773 [INFO] Serving on port 8000...
+2022-11-22 15:43:31,773 [INFO] Press Ctrl+C to stop.
+2022-11-22 15:43:31,773 [INFO] Visit http://localhost:8000/
+2022-11-22 17:02:10,899 [INFO] Serving on port 8000...
+2022-11-22 17:02:10,900 [INFO] Press Ctrl+C to stop.
+2022-11-22 17:02:10,900 [INFO] Visit http://localhost:8000/
+2022-11-22 17:02:12,348 [INFO] Request: <essentials.Request object at 0x7f07930be710>
+2022-11-22 17:02:12,667 [INFO] Request: <essentials.Request object at 0x7f07930be2c0>
+2022-11-22 17:03:18,693 [INFO] Serving on port 8000...
+2022-11-22 17:03:18,694 [INFO] Press Ctrl+C to stop.
+2022-11-22 17:03:18,694 [INFO] Visit http://localhost:8000/
+2022-11-22 17:03:36,780 [INFO] Serving on port 8000...
+2022-11-22 17:03:36,780 [INFO] Press Ctrl+C to stop.
+2022-11-22 17:03:36,780 [INFO] Visit http://localhost:8000/
+2022-11-22 17:03:39,086 [INFO] Request: <essentials.Request object at 0x7f0681abe6e0>
+2022-11-22 17:03:59,002 [INFO] Request: <essentials.Request object at 0x7f0681abe290>
+2022-11-22 17:07:10,896 [INFO] Serving on port 8000...
+2022-11-22 17:07:10,897 [INFO] Press Ctrl+C to stop.
+2022-11-22 17:07:10,897 [INFO] Visit http://localhost:8000/
+2022-11-22 17:07:13,737 [INFO] Request: <essentials.Request object at 0x7f70808ae6e0>
+2022-11-22 17:07:26,832 [INFO] Request: <essentials.Request object at 0x7f70808ae290>
+2022-11-22 17:07:36,755 [INFO] Request: <essentials.Request object at 0x7f70808ae500>
+2022-11-22 17:07:54,210 [INFO] Request: <essentials.Request object at 0x7f70808ae6b0>
+2022-11-22 17:08:11,699 [INFO] Serving on port 8000...
+2022-11-22 17:08:11,700 [INFO] Press Ctrl+C to stop.
+2022-11-22 17:08:11,700 [INFO] Visit http://localhost:8000/
+2022-11-22 17:08:12,465 [INFO] Request: <essentials.Request object at 0x7f52c4cc8070>
+2022-11-22 17:09:19,395 [INFO] Serving on port 8000...
+2022-11-22 17:09:19,395 [INFO] Press Ctrl+C to stop.
+2022-11-22 17:09:19,395 [INFO] Visit http://localhost:8000/
+2022-11-22 17:09:20,387 [INFO] Request: <essentials.Request object at 0x7f6356764070>
+2022-11-22 17:09:33,616 [INFO] Serving on port 8000...
+2022-11-22 17:09:33,617 [INFO] Press Ctrl+C to stop.
+2022-11-22 17:09:33,617 [INFO] Visit http://localhost:8000/
+2022-11-22 17:09:34,757 [INFO] Request: <essentials.Request object at 0x7f1a2d364070>
+2022-11-22 17:10:12,898 [INFO] Serving on port 8000...
+2022-11-22 17:10:12,898 [INFO] Press Ctrl+C to stop.
+2022-11-22 17:10:12,898 [INFO] Visit http://localhost:8000/
+2022-11-22 17:10:14,143 [INFO] Request: <essentials.Request object at 0x7f64e32cc160>
+2022-11-22 17:10:14,147 [ERROR] Method GET not found in posts.show
+2022-11-22 17:10:35,075 [INFO] Serving on port 8000...
+2022-11-22 17:10:35,075 [INFO] Press Ctrl+C to stop.
+2022-11-22 17:10:35,075 [INFO] Visit http://localhost:8000/
+2022-11-22 17:10:35,944 [INFO] Request: <essentials.Request object at 0x7fa31acc81c0>
+2022-11-22 17:10:35,948 [ERROR] Method GET not found in posts.show
+2022-11-22 17:10:51,643 [INFO] Serving on port 8000...
+2022-11-22 17:10:51,644 [INFO] Press Ctrl+C to stop.
+2022-11-22 17:10:51,644 [INFO] Visit http://localhost:8000/
+2022-11-22 17:10:52,603 [INFO] Request: GET /names
+2022-11-22 17:10:52,605 [ERROR] Method GET not found in posts.show
+2022-11-22 17:11:07,044 [INFO] Serving on port 8000...
+2022-11-22 17:11:07,044 [INFO] Press Ctrl+C to stop.
+2022-11-22 17:11:07,044 [INFO] Visit http://localhost:8000/
+2022-11-22 17:11:07,246 [INFO] [GET] Request: /names
+2022-11-22 17:11:07,249 [ERROR] Method GET not found in posts.show
+2022-11-22 17:11:07,914 [INFO] [GET] Request: /names
+2022-11-22 17:11:07,914 [ERROR] Method GET not found in posts.show
+2022-11-22 17:11:24,332 [INFO] Serving on port 8000...
+2022-11-22 17:11:24,332 [INFO] Press Ctrl+C to stop.
+2022-11-22 17:11:24,332 [INFO] Visit http://localhost:8000/
+2022-11-22 17:11:25,579 [INFO] [GET] Request: /names
+2022-11-22 17:11:25,588 [INFO] Controller method: <function get at 0x7fccf4968ca0>
+2022-11-22 17:11:46,502 [INFO] Serving on port 8000...
+2022-11-22 17:11:46,502 [INFO] Press Ctrl+C to stop.
+2022-11-22 17:11:46,502 [INFO] Visit http://localhost:8000/
+2022-11-22 17:11:47,404 [INFO] [GET] Request: /names
+2022-11-22 17:11:47,415 [INFO] Controller method: <function get at 0x7fb13c4c4ca0>
+2022-11-22 17:12:01,739 [INFO] Serving on port 8000...
+2022-11-22 17:12:01,740 [INFO] Press Ctrl+C to stop.
+2022-11-22 17:12:01,740 [INFO] Visit http://localhost:8000/
+2022-11-22 17:12:03,026 [INFO] [GET] Request: /names
+2022-11-22 17:12:03,031 [INFO] Controller method: <function get at 0x7f4847ec4ca0>
+2022-11-22 17:15:20,517 [INFO] Serving on port 8000...
+2022-11-22 17:15:20,517 [INFO] Press Ctrl+C to stop.
+2022-11-22 17:15:20,518 [INFO] Visit http://localhost:8000/
+2022-11-22 17:15:21,283 [INFO] [GET] Request: /names
+2022-11-22 17:15:21,287 [INFO] Controller method: <function get at 0x7efbf3eccca0>
+2022-11-22 17:15:34,445 [INFO] [GET] Request: /names
+2022-11-22 17:15:34,446 [INFO] Controller method: <function get at 0x7efbf3eccca0>
+2022-11-22 17:15:35,343 [INFO] [GET] Request: /names
+2022-11-22 17:15:35,343 [INFO] Controller method: <function get at 0x7efbf3eccca0>
+2022-11-22 17:15:43,602 [INFO] Serving on port 8000...
+2022-11-22 17:15:43,602 [INFO] Press Ctrl+C to stop.
+2022-11-22 17:15:43,602 [INFO] Visit http://localhost:8000/
+2022-11-22 17:15:44,925 [INFO] [GET] Request: /names
+2022-11-22 17:15:44,927 [INFO] Controller method: <function get at 0x7f588f568ca0>
+2022-11-22 17:18:38,345 [INFO] [GET] Request: /names
+2022-11-22 17:18:38,345 [INFO] Controller method: <function get at 0x7f588f568ca0>
+2022-11-22 17:18:41,002 [INFO] Serving on port 8000...
+2022-11-22 17:18:41,002 [INFO] Press Ctrl+C to stop.
+2022-11-22 17:18:41,002 [INFO] Visit http://localhost:8000/
+2022-11-22 17:18:42,287 [INFO] [GET] Request: /names
+2022-11-22 17:18:42,295 [INFO] Controller method: <function get at 0x7f9bb26ccca0>
+2022-11-22 17:19:25,219 [INFO] Serving on port 8000...
+2022-11-22 17:19:25,219 [INFO] Press Ctrl+C to stop.
+2022-11-22 17:19:25,219 [INFO] Visit http://localhost:8000/
+2022-11-22 17:19:26,953 [INFO] [GET] Request: /names
+2022-11-22 17:19:26,956 [INFO] Controller method: <function get at 0x7fd412eccca0>
+2022-11-22 17:21:48,322 [INFO] Serving on port 8000...
+2022-11-22 17:21:48,322 [INFO] Press Ctrl+C to stop.
+2022-11-22 17:21:48,322 [INFO] Visit http://localhost:8000/
+2022-11-22 17:21:49,658 [INFO] [GET] Request: /names
+2022-11-22 17:21:49,666 [INFO] Controller method: <function get at 0x7f3126b68d30>
+2022-11-22 17:21:59,890 [INFO] Serving on port 8000...
+2022-11-22 17:21:59,890 [INFO] Press Ctrl+C to stop.
+2022-11-22 17:21:59,890 [INFO] Visit http://localhost:8000/
+2022-11-22 17:22:00,994 [INFO] [GET] Request: /names
+2022-11-22 17:22:00,997 [INFO] Controller method: <function get at 0x7f322e768d30>
+2022-11-22 17:22:23,957 [INFO] Serving on port 8000...
+2022-11-22 17:22:23,957 [INFO] Press Ctrl+C to stop.
+2022-11-22 17:22:23,957 [INFO] Visit http://localhost:8000/
+2022-11-22 17:22:25,338 [INFO] [GET] Request: /names
+2022-11-22 17:22:25,348 [INFO] Controller method: <function get at 0x7fc53b568d30>

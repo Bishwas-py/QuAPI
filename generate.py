@@ -18,6 +18,7 @@ def generate_content(params, handler_name, content, extension):
 
     file_path = f"{handler_name}/{parent_name}"
     directory = f"{currentPath / file_path}"
+
     if not os.path.exists(directory):
         os.makedirs(directory)
 
