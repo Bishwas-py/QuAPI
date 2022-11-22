@@ -75,3 +75,118 @@
 2022-11-22 13:24:30,202 [INFO] Request: {'path': '/home/home', 'headers': None, 'method': 'GET', 'body': None}
 2022-11-22 13:24:30,400 [INFO] Request: {'path': '/favicon.ico', 'headers': None, 'method': 'GET', 'body': None}
 2022-11-22 13:24:30,400 [ERROR] 400: 'favicon.ico' not found
+2022-11-22 13:25:47,106 [INFO] Serving on port 8000...
+2022-11-22 13:25:47,106 [INFO] Press Ctrl+C to stop.
+2022-11-22 13:25:47,107 [INFO] Visit http://localhost:8000/
+2022-11-22 13:26:12,900 [INFO] Serving on port 8000...
+2022-11-22 13:26:12,900 [INFO] Press Ctrl+C to stop.
+2022-11-22 13:26:12,900 [INFO] Visit http://localhost:8000/
+2022-11-22 13:26:26,354 [INFO] Request: {'path': '/home/home', 'headers': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9', 'method': 'GET', 'body': b''}
+2022-11-22 13:26:27,812 [INFO] Request: {'path': '/home/home', 'headers': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9', 'method': 'GET', 'body': b''}
+2022-11-22 13:28:22,463 [INFO] Serving on port 8000...
+2022-11-22 13:28:22,463 [INFO] Press Ctrl+C to stop.
+2022-11-22 13:28:22,463 [INFO] Visit http://localhost:8000/
+2022-11-22 13:28:23,354 [INFO] Request: {'path': '/home/home', 'headers': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9', 'method': 'GET', 'body': ''}
+2022-11-22 13:28:23,537 [INFO] Request: {'path': '/favicon.ico', 'headers': 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8', 'method': 'GET', 'body': ''}
+2022-11-22 13:28:23,537 [ERROR] 400: 'favicon.ico' not found
+2022-11-22 13:28:23,836 [INFO] Request: {'path': '/home/home', 'headers': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9', 'method': 'GET', 'body': ''}
+2022-11-22 13:28:23,958 [INFO] Request: {'path': '/favicon.ico', 'headers': 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8', 'method': 'GET', 'body': ''}
+2022-11-22 13:28:23,958 [ERROR] 400: 'favicon.ico' not found
+2022-11-22 13:28:51,311 [INFO] Request: {'path': '/home/home', 'headers': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9', 'method': 'GET', 'body': ''}
+2022-11-22 13:28:51,515 [INFO] Request: {'path': '/favicon.ico', 'headers': 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8', 'method': 'GET', 'body': ''}
+2022-11-22 13:28:51,516 [ERROR] 400: 'favicon.ico' not found
+2022-11-22 13:30:04,161 [INFO] Serving on port 8000...
+2022-11-22 13:30:04,161 [INFO] Press Ctrl+C to stop.
+2022-11-22 13:30:04,161 [INFO] Visit http://localhost:8000/
+2022-11-22 13:30:12,028 [INFO] Request: {'path': '/home/home', 'headers': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9', 'method': 'GET', 'body': ''}
+2022-11-22 13:30:12,028 [ERROR] 400: 'home/home' not found
+2022-11-22 13:30:12,242 [INFO] Request: {'path': '/favicon.ico', 'headers': 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8', 'method': 'GET', 'body': ''}
+2022-11-22 13:30:12,242 [ERROR] 400: 'favicon.ico' not found
+2022-11-22 13:31:20,362 [INFO] Serving on port 8000...
+2022-11-22 13:31:20,363 [INFO] Press Ctrl+C to stop.
+2022-11-22 13:31:20,363 [INFO] Visit http://localhost:8000/
+2022-11-22 13:31:36,772 [INFO] Serving on port 8000...
+2022-11-22 13:31:36,773 [INFO] Press Ctrl+C to stop.
+2022-11-22 13:31:36,773 [INFO] Visit http://localhost:8000/
+2022-11-22 13:31:38,666 [INFO] Request: {'path': '/home/home', 'headers': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9', 'method': 'GET', 'body': ''}
+2022-11-22 13:31:38,666 [ERROR] 400: 'home/home' not found
+2022-11-22 13:31:38,851 [INFO] Request: {'path': '/favicon.ico', 'headers': 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8', 'method': 'GET', 'body': ''}
+2022-11-22 13:31:38,852 [ERROR] 400: 'favicon.ico' not found
+2022-11-22 13:32:24,719 [INFO] Serving on port 8000...
+2022-11-22 13:32:24,719 [INFO] Press Ctrl+C to stop.
+2022-11-22 13:32:24,719 [INFO] Visit http://localhost:8000/
+2022-11-22 13:32:27,356 [INFO] Request: {'path': '/', 'headers': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9', 'method': 'GET', 'body': ''}
+2022-11-22 13:32:27,569 [INFO] Request: {'path': '/favicon.ico', 'headers': 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8', 'method': 'GET', 'body': ''}
+2022-11-22 13:32:27,570 [ERROR] 400: 'favicon.ico' not found
+2022-11-22 13:32:34,131 [INFO] Serving on port 8000...
+2022-11-22 13:32:34,131 [INFO] Press Ctrl+C to stop.
+2022-11-22 13:32:34,131 [INFO] Visit http://localhost:8000/
+2022-11-22 13:39:07,962 [INFO] Serving on port 8000...
+2022-11-22 13:39:07,962 [INFO] Press Ctrl+C to stop.
+2022-11-22 13:39:07,962 [INFO] Visit http://localhost:8000/
+2022-11-22 13:39:10,137 [INFO] Request: {'path': '/', 'headers': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9', 'method': 'GET', 'body': ''}
+2022-11-22 13:39:10,389 [INFO] Request: {'path': '/favicon.ico', 'headers': 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8', 'method': 'GET', 'body': ''}
+2022-11-22 13:39:10,389 [ERROR] 400: 'favicon.ico' not found
+2022-11-22 13:39:14,541 [INFO] Request: {'path': '/home/home', 'headers': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9', 'method': 'GET', 'body': ''}
+2022-11-22 13:39:14,749 [INFO] Request: {'path': '/favicon.ico', 'headers': 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8', 'method': 'GET', 'body': ''}
+2022-11-22 13:39:14,749 [ERROR] 400: 'favicon.ico' not found
+2022-11-22 13:39:18,052 [INFO] Request: {'path': '/home', 'headers': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9', 'method': 'GET', 'body': ''}
+2022-11-22 13:39:18,053 [ERROR] 400: 'home' not found
+2022-11-22 13:39:18,274 [INFO] Request: {'path': '/favicon.ico', 'headers': 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8', 'method': 'GET', 'body': ''}
+2022-11-22 13:39:18,274 [ERROR] 400: 'favicon.ico' not found
+2022-11-22 13:39:25,082 [INFO] Request: {'path': '/home', 'headers': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9', 'method': 'GET', 'body': ''}
+2022-11-22 13:39:25,082 [ERROR] 400: 'home' not found
+2022-11-22 13:39:25,273 [INFO] Request: {'path': '/favicon.ico', 'headers': 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8', 'method': 'GET', 'body': ''}
+2022-11-22 13:39:25,273 [ERROR] 400: 'favicon.ico' not found
+2022-11-22 13:39:48,415 [INFO] Serving on port 8000...
+2022-11-22 13:39:48,415 [INFO] Press Ctrl+C to stop.
+2022-11-22 13:39:48,415 [INFO] Visit http://localhost:8000/
+2022-11-22 13:40:48,087 [INFO] Serving on port 8000...
+2022-11-22 13:40:48,087 [INFO] Press Ctrl+C to stop.
+2022-11-22 13:40:48,088 [INFO] Visit http://localhost:8000/
+2022-11-22 13:40:49,205 [INFO] Request: {'path': '/home', 'headers': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9', 'method': 'GET', 'body': ''}
+2022-11-22 13:40:49,205 [ERROR] 400: 'home' not found
+2022-11-22 13:40:49,477 [INFO] Request: {'path': '/favicon.ico', 'headers': 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8', 'method': 'GET', 'body': ''}
+2022-11-22 13:40:49,478 [ERROR] 400: 'favicon.ico' not found
+2022-11-22 13:41:06,742 [INFO] Serving on port 8000...
+2022-11-22 13:41:06,742 [INFO] Press Ctrl+C to stop.
+2022-11-22 13:41:06,743 [INFO] Visit http://localhost:8000/
+2022-11-22 13:41:09,476 [INFO] Request: {'path': '/home', 'headers': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9', 'method': 'GET', 'body': ''}
+2022-11-22 13:41:09,477 [ERROR] 400: 'home' not found
+2022-11-22 13:41:09,767 [INFO] Request: {'path': '/favicon.ico', 'headers': 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8', 'method': 'GET', 'body': ''}
+2022-11-22 13:41:09,768 [ERROR] 400: 'favicon.ico' not found
+2022-11-22 13:41:23,537 [INFO] Serving on port 8000...
+2022-11-22 13:41:23,538 [INFO] Press Ctrl+C to stop.
+2022-11-22 13:41:23,538 [INFO] Visit http://localhost:8000/
+2022-11-22 13:41:24,913 [INFO] Request: {'path': '/home', 'headers': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9', 'method': 'GET', 'body': ''}
+2022-11-22 13:41:24,914 [ERROR] 400: 'home' not found
+2022-11-22 13:41:58,652 [INFO] Serving on port 8000...
+2022-11-22 13:41:58,652 [INFO] Press Ctrl+C to stop.
+2022-11-22 13:41:58,652 [INFO] Visit http://localhost:8000/
+2022-11-22 13:41:59,702 [INFO] Request: {'path': '/home', 'headers': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9', 'method': 'GET', 'body': ''}
+2022-11-22 13:41:59,702 [ERROR] 400: 'home' not found
+2022-11-22 13:42:08,115 [INFO] Request: {'path': '/home', 'headers': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9', 'method': 'GET', 'body': ''}
+2022-11-22 13:42:08,116 [ERROR] 400: 'home' not found
+2022-11-22 13:42:16,690 [INFO] Request: {'path': '/home', 'headers': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9', 'method': 'GET', 'body': ''}
+2022-11-22 13:42:16,691 [ERROR] 400: 'home' not found
+2022-11-22 13:42:48,608 [INFO] Request: {'path': '/home', 'headers': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9', 'method': 'GET', 'body': ''}
+2022-11-22 13:42:48,608 [ERROR] 400: 'home' not found
+2022-11-22 13:43:43,802 [INFO] Serving on port 8000...
+2022-11-22 13:43:43,802 [INFO] Press Ctrl+C to stop.
+2022-11-22 13:43:43,802 [INFO] Visit http://localhost:8000/
+2022-11-22 13:43:47,717 [INFO] Request: {'path': '/home', 'headers': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9', 'method': 'GET', 'body': ''}
+2022-11-22 13:44:11,933 [INFO] Serving on port 8000...
+2022-11-22 13:44:11,934 [INFO] Press Ctrl+C to stop.
+2022-11-22 13:44:11,934 [INFO] Visit http://localhost:8000/
+2022-11-22 13:44:14,974 [INFO] Request: {'path': '/zz', 'headers': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9', 'method': 'GET', 'body': ''}
+2022-11-22 13:44:35,458 [INFO] Serving on port 8000...
+2022-11-22 13:44:35,459 [INFO] Press Ctrl+C to stop.
+2022-11-22 13:44:35,459 [INFO] Visit http://localhost:8000/
+2022-11-22 13:44:37,259 [INFO] Request: {'path': '/zz', 'headers': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9', 'method': 'GET', 'body': ''}
+2022-11-22 13:44:38,182 [INFO] Request: {'path': '/zz', 'headers': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9', 'method': 'GET', 'body': ''}
+2022-11-22 13:44:49,668 [INFO] Serving on port 8000...
+2022-11-22 13:44:49,668 [INFO] Press Ctrl+C to stop.
+2022-11-22 13:44:49,668 [INFO] Visit http://localhost:8000/
+2022-11-22 13:44:51,017 [INFO] Request: {'path': '/zz', 'headers': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9', 'method': 'GET', 'body': ''}
+2022-11-22 13:45:46,329 [INFO] Request: {'path': '/zz', 'headers': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9', 'method': 'GET', 'body': ''}
+2022-11-22 13:45:58,802 [INFO] Request: {'path': '/zz', 'headers': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9', 'method': 'GET', 'body': ''}

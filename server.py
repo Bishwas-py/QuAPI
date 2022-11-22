@@ -23,9 +23,11 @@ def render_api(environ):
     Renders APIs, where actual path is unformulated slash containing string.
     """
     path = environ.get("PATH_INFO")
-    request_headers = environ.get("REQUEST_HEADERS")
+    controller_name = paths[path]['controller_path']
+
+    request_headers = environ.get("HTTP_ACCEPT")
     request_method = environ.get("REQUEST_METHOD")
-    request_body = environ.get("REQUEST_BODY")
+    request_body = ''
 
     if type(request_method) is not str:
         return "Request method is not understood.", "400 Bad Request"
@@ -44,7 +46,7 @@ def render_api(environ):
 
     #  paths[path] gives filename i.e. index.svelte
     try:
-        mod = importlib.import_module(f"controllers.{paths[path]['controller_path']}")
+        mod = importlib.import_module(f"controllers.{controller_name}")
         controller_method = getattr(mod, request_method.lower())
         return controller_method(request), "200 OK"
 

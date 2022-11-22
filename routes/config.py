@@ -2,37 +2,40 @@ import os
 import re
 from pathlib import Path
 
-import yaml
-
 from rigids import controllers_root, SColor
+from routes.routes import Routes
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 CURRENT_DIR = Path(__file__).resolve().parent
 
-
-def get_routes():
-    with open(CURRENT_DIR / 'routes.yml', 'r') as f:
-        return yaml.load(f, Loader=yaml.FullLoader)
-
-
-routes = get_routes()
+routes = Routes()
 
 paths = {}
-root_path = routes.get('root')
+
 # sets the global root path domain.com/
-if root_path:
-    file_name = f"{root_path.replace('.', '/')}.svelte"
+if routes.root:
     paths.update({
-        '/': {'template_path': file_name, 'controller_path': root_path}
+        '/': {'controller_path': routes.root}
     })
 
-resources = routes.get('resources')
-if resources:
-    for resource in resources:
-        try:
-            templates_dir = os.listdir(BASE_DIR / f"{controllers_root}/{resource}")
+if routes.tweaked_routes:
+    for key, value in routes.tweaked_routes.items():
+        print(key, value)
+        if type(value) is dict:
+            paths.update({
+                value['path']: {'controller_path': key}
+            })
+        else:
+            paths.update({
+                value: {'controller_path': key}
+            })
 
-            for controller_file in templates_dir:
+if routes.resources:
+    for resource in routes.resources:
+        try:
+            controllers_dir = os.listdir(BASE_DIR / f"{controllers_root}/{resource}")
+
+            for controller_file in controllers_dir:
                 no_extension_controller_file_name = re.sub(r'\.py$', '', controller_file)
                 controller_path = f"{resource}.{no_extension_controller_file_name}"
                 paths.update(
