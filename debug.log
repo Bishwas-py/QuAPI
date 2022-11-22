@@ -1,1 +1,77 @@
 2022-11-21 08:32:25,713 [INFO] Visit http://localhost:8000/
+2022-11-21 08:51:55,494 [INFO] Serving on port 8000...
+2022-11-21 08:51:55,494 [INFO] Press Ctrl+C to stop.
+2022-11-21 08:51:55,494 [INFO] Visit http://localhost:8000/
+2022-11-21 08:51:58,995 [ERROR] 400: 'favicon.ico' not found
+2022-11-21 08:51:59,003 [ERROR] 400: 'favicon.ico' not found
+2022-11-21 08:55:00,373 [ERROR] 400: 'favicon.ico' not found
+2022-11-21 08:55:48,326 [ERROR] 400: 'favicon.ico' not found
+2022-11-21 08:55:48,918 [ERROR] 400: 'favicon.ico' not found
+2022-11-21 09:00:13,684 [INFO] Serving on port 8000...
+2022-11-21 09:00:13,685 [INFO] Press Ctrl+C to stop.
+2022-11-21 09:00:13,685 [INFO] Visit http://localhost:8000/
+2022-11-21 09:00:44,280 [INFO] Serving on port 8000...
+2022-11-21 09:00:44,280 [INFO] Press Ctrl+C to stop.
+2022-11-21 09:00:44,281 [INFO] Visit http://localhost:8000/
+2022-11-22 13:08:00,850 [INFO] Serving on port 8000...
+2022-11-22 13:08:00,851 [INFO] Press Ctrl+C to stop.
+2022-11-22 13:08:00,851 [INFO] Visit http://localhost:8000/
+2022-11-22 13:08:03,983 [ERROR] 400: 'favicon.ico' not found
+2022-11-22 13:08:03,998 [ERROR] 400: 'favicon.ico' not found
+2022-11-22 13:10:00,512 [ERROR] 400: 'favicon.ico' not found
+2022-11-22 13:11:08,198 [ERROR] 400: 'favicon.ico' not found
+2022-11-22 13:11:08,862 [ERROR] 400: 'favicon.ico' not found
+2022-11-22 13:11:08,984 [ERROR] 400: 'favicon.ico' not found
+2022-11-22 13:11:38,853 [INFO] Serving on port 8000...
+2022-11-22 13:11:38,853 [INFO] Press Ctrl+C to stop.
+2022-11-22 13:11:38,853 [INFO] Visit http://localhost:8000/
+2022-11-22 13:11:40,446 [ERROR] 400: 'favicon.ico' not found
+2022-11-22 13:12:50,098 [INFO] Serving on port 8000...
+2022-11-22 13:12:50,098 [INFO] Press Ctrl+C to stop.
+2022-11-22 13:12:50,098 [INFO] Visit http://localhost:8000/
+2022-11-22 13:12:52,022 [ERROR] 400: 'favicon.ico' not found
+2022-11-22 13:13:51,549 [ERROR] 400: 'favicon.ico' not found
+2022-11-22 13:13:54,686 [INFO] Serving on port 8000...
+2022-11-22 13:13:54,686 [INFO] Press Ctrl+C to stop.
+2022-11-22 13:13:54,686 [INFO] Visit http://localhost:8000/
+2022-11-22 13:13:56,010 [ERROR] 400: 'favicon.ico' not found
+2022-11-22 13:14:10,962 [INFO] Serving on port 8000...
+2022-11-22 13:14:10,962 [INFO] Press Ctrl+C to stop.
+2022-11-22 13:14:10,962 [INFO] Visit http://localhost:8000/
+2022-11-22 13:14:12,943 [ERROR] 400: 'favicon.ico' not found
+2022-11-22 13:20:19,735 [INFO] Serving on port 8000...
+2022-11-22 13:20:19,736 [INFO] Press Ctrl+C to stop.
+2022-11-22 13:20:19,736 [INFO] Visit http://localhost:8000/
+2022-11-22 13:20:29,221 [INFO] Request: {'path': '/home/home', 'headers': None, 'method': 'GET', 'body': None}
+2022-11-22 13:20:29,383 [INFO] Request: {'path': '/favicon.ico', 'headers': None, 'method': 'GET', 'body': None}
+2022-11-22 13:20:29,384 [ERROR] 400: 'favicon.ico' not found
+2022-11-22 13:21:12,580 [INFO] Serving on port 8000...
+2022-11-22 13:21:12,580 [INFO] Press Ctrl+C to stop.
+2022-11-22 13:21:12,580 [INFO] Visit http://localhost:8000/
+2022-11-22 13:21:31,540 [INFO] Serving on port 8000...
+2022-11-22 13:21:31,541 [INFO] Press Ctrl+C to stop.
+2022-11-22 13:21:31,541 [INFO] Visit http://localhost:8000/
+2022-11-22 13:21:33,081 [INFO] Request: {'path': '/home/home', 'headers': None, 'method': 'GET', 'body': None}
+2022-11-22 13:21:33,221 [INFO] Request: {'path': '/favicon.ico', 'headers': None, 'method': 'GET', 'body': None}
+2022-11-22 13:21:33,221 [ERROR] 400: 'favicon.ico' not found
+2022-11-22 13:23:20,794 [INFO] Serving on port 8000...
+2022-11-22 13:23:20,794 [INFO] Press Ctrl+C to stop.
+2022-11-22 13:23:20,794 [INFO] Visit http://localhost:8000/
+2022-11-22 13:23:23,911 [INFO] Request: {'path': '/home/home', 'headers': None, 'method': 'GET', 'body': None}
+2022-11-22 13:23:24,063 [INFO] Request: {'path': '/favicon.ico', 'headers': None, 'method': 'GET', 'body': None}
+2022-11-22 13:23:24,063 [ERROR] 400: 'favicon.ico' not found
+2022-11-22 13:23:24,490 [INFO] Request: {'path': '/home/home', 'headers': None, 'method': 'GET', 'body': None}
+2022-11-22 13:23:24,618 [INFO] Request: {'path': '/favicon.ico', 'headers': None, 'method': 'GET', 'body': None}
+2022-11-22 13:23:24,619 [ERROR] 400: 'favicon.ico' not found
+2022-11-22 13:24:12,875 [INFO] Serving on port 8000...
+2022-11-22 13:24:12,876 [INFO] Press Ctrl+C to stop.
+2022-11-22 13:24:12,876 [INFO] Visit http://localhost:8000/
+2022-11-22 13:24:14,434 [INFO] Request: {'path': '/home/home', 'headers': None, 'method': 'GET', 'body': None}
+2022-11-22 13:24:14,635 [INFO] Request: {'path': '/favicon.ico', 'headers': None, 'method': 'GET', 'body': None}
+2022-11-22 13:24:14,635 [ERROR] 400: 'favicon.ico' not found
+2022-11-22 13:24:28,836 [INFO] Serving on port 8000...
+2022-11-22 13:24:28,836 [INFO] Press Ctrl+C to stop.
+2022-11-22 13:24:28,836 [INFO] Visit http://localhost:8000/
+2022-11-22 13:24:30,202 [INFO] Request: {'path': '/home/home', 'headers': None, 'method': 'GET', 'body': None}
+2022-11-22 13:24:30,400 [INFO] Request: {'path': '/favicon.ico', 'headers': None, 'method': 'GET', 'body': None}
+2022-11-22 13:24:30,400 [ERROR] 400: 'favicon.ico' not found

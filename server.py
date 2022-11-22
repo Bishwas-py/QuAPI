@@ -18,17 +18,36 @@ logging.basicConfig(
 )
 
 
-def render_api(path):
+def render_api(environ):
     """
-    Renders template, where actual path is unformulated slash containing string.
+    Renders APIs, where actual path is unformulated slash containing string.
     """
+    path = environ.get("PATH_INFO")
+    request_headers = environ.get("REQUEST_HEADERS")
+    request_method = environ.get("REQUEST_METHOD")
+    request_body = environ.get("REQUEST_BODY")
+
+    if type(request_method) is not str:
+        return "Request method is not understood.", "400 Bad Request"
+
+    request = {
+        "path": path,
+        "headers": request_headers,
+        "method": request_method,
+        "body": request_body
+    }
+
+    logging.info(f"Request: {request}")
+
     if path != "/":
         path = path.lstrip('/')
 
     #  paths[path] gives filename i.e. index.svelte
     try:
         mod = importlib.import_module(f"controllers.{paths[path]['controller_path']}")
-        return mod.context, "200 OK"
+        controller_method = getattr(mod, request_method.lower())
+        return controller_method(request), "200 OK"
+
     except KeyError as e:
         error_message = f"400: {str(e)} not found"
         logging.error(error_message)
@@ -37,8 +56,7 @@ def render_api(path):
 
 # main server handler
 def app(environ, start_response):
-    path = environ.get("PATH_INFO")
-    raw, response = render_api(path)
+    raw, response = render_api(environ)
     dumped_data = json.dumps(raw)
     start_response(
         response, [
