@@ -23,7 +23,7 @@ DX [Developer Experience].
 
 - Git clone this repository
 - Run `./core/generate.py -c <controller_name> <action_name>` to generate a new controller
-- Edit the controller file in `controllers/` directory; `controllers/<controller_name>.py`
+- Add a `get` function [or your preferred method] in the `controllers/<controller_name>.py` file
 - Add `<controller_name>` to the `routes.yaml` file
 - Run `./core/server.py` to start the server in the project directory; be sure you are
   in the project directory
@@ -32,7 +32,7 @@ DX [Developer Experience].
 ### How to use `/<controller_name>/` as URL?
 
 - Create a `index.py` file in `controllers/<controller_name>/` directory
-- Add a `get` function [method] in the `index.py` file
+- Add a `get` function [or your preferred method] in the `controllers/<controller_name>.py` file
 - Add `<controller_name>` to the `routes.yaml` file
 - Run `./core/server.py` to start the server in the project directory; be sure you are
   in the project directory
@@ -40,7 +40,7 @@ DX [Developer Experience].
 
 ### How to use `/` as URL?
 
-- Create a controller with its action; for example, `home.index`
+- Create a controller with its action and method; for example, `home.index`
 - Add `home.index` to the `routes.yaml` file; as `root: home.index` on the first line
 - Run `./core/server.py` to start the server in the project directory; be sure you are
   in the project directory
