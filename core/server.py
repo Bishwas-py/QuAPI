@@ -4,7 +4,7 @@ import os
 import logging
 
 from essentials import Request
-from route_config import paths, CURRENT_DIR
+from router import paths, CURRENT_DIR
 
 GLOBAL_METHODS = ["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"]
 RESTRICTED_PATH_NAMES = ["/favicon.ico", "/robots.txt", "/sitemap.xml", "/"]

@@ -1,3 +1,7 @@
+# router.py is basically the router that handles all the requests and routes them to the correct controller.
+# it configures the routes from routes.yaml and then it uses the controller name to import the controller and
+# call the correct method (get, post, put, delete, etc.)
+
 import os
 import re
 from pathlib import Path
