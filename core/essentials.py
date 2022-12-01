@@ -20,7 +20,6 @@ class Request:
     authorization = ''
 
     def __init__(self, environ):
-        print("environ", environ)
         self.accepts = environ.get("HTTP_ACCEPT")
         self.method = environ.get("REQUEST_METHOD")
         self.body = environ.get("wsgi.input")

@@ -2,6 +2,7 @@ import importlib
 import json
 import os
 import logging
+import threading
 
 from essentials import Request
 from router import paths, CURRENT_DIR
@@ -124,4 +125,6 @@ if __name__ == "__main__":
     logging.info("Serving on port 8000...")
     logging.info("Press Ctrl+C to stop.")
     logging.info('Visit http://localhost:8000/')
-    httpd.serve_forever()
+    task = threading.Thread(target=httpd.serve_forever)
+    task.start()
+

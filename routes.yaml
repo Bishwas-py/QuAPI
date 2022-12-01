@@ -1,11 +1,6 @@
-root: posts.index # this path can't be overridden
+root: home.home # this path can't be overridden
 resources:
-  - posts
-  - comments
   - home
-  - car
-  - new
-  - make
 tweaks:
   controller:
     posts.show:

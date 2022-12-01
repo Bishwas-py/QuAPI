@@ -173,3 +173,126 @@
 2022-12-01 18:22:37,573 [INFO] Press Ctrl+C to stop.
 2022-12-01 18:22:37,574 [INFO] Visit http://localhost:8000/
 2022-12-01 18:22:38,444 [INFO] [GET] Request: /new/app
+2022-12-01 18:23:15,068 [INFO] [GET] Request: /new/app
+2022-12-01 18:24:11,074 [INFO] Serving on port 8000...
+2022-12-01 18:24:11,074 [INFO] Press Ctrl+C to stop.
+2022-12-01 18:24:11,074 [INFO] Visit http://localhost:8000/
+2022-12-01 18:24:12,654 [INFO] [GET] Request: /new/app
+2022-12-01 18:24:48,478 [INFO] Serving on port 8000...
+2022-12-01 18:24:48,478 [INFO] Press Ctrl+C to stop.
+2022-12-01 18:24:48,478 [INFO] Visit http://localhost:8000/
+2022-12-01 18:24:50,536 [INFO] [GET] Request: /new/app
+2022-12-01 18:25:01,918 [INFO] Serving on port 8000...
+2022-12-01 18:25:01,918 [INFO] Press Ctrl+C to stop.
+2022-12-01 18:25:01,918 [INFO] Visit http://localhost:8000/
+2022-12-01 18:25:02,953 [INFO] [GET] Request: /new/app
+2022-12-01 18:25:16,868 [INFO] Serving on port 8000...
+2022-12-01 18:25:16,868 [INFO] Press Ctrl+C to stop.
+2022-12-01 18:25:16,868 [INFO] Visit http://localhost:8000/
+2022-12-01 18:25:17,920 [INFO] [GET] Request: /new/app
+2022-12-01 20:08:34,285 [INFO] Serving on port 8000...
+2022-12-01 20:08:34,285 [INFO] Press Ctrl+C to stop.
+2022-12-01 20:08:34,285 [INFO] Visit http://localhost:8000/
+2022-12-01 20:08:37,705 [INFO] [GET] Request: /new/app
+2022-12-01 20:09:23,713 [INFO] Serving on port 8000...
+2022-12-01 20:09:23,713 [INFO] Press Ctrl+C to stop.
+2022-12-01 20:09:23,713 [INFO] Visit http://localhost:8000/
+2022-12-01 20:09:25,083 [INFO] [GET] Request: /new/app
+2022-12-01 20:10:10,522 [INFO] Serving on port 8000...
+2022-12-01 20:10:10,522 [INFO] Press Ctrl+C to stop.
+2022-12-01 20:10:10,522 [INFO] Visit http://localhost:8000/
+2022-12-01 20:10:12,309 [INFO] [GET] Request: /new/app
+2022-12-01 20:10:22,120 [INFO] [GET] Request: /new/app
+2022-12-01 20:10:28,047 [INFO] Serving on port 8000...
+2022-12-01 20:10:28,047 [INFO] Press Ctrl+C to stop.
+2022-12-01 20:10:28,047 [INFO] Visit http://localhost:8000/
+2022-12-01 20:10:29,915 [INFO] [GET] Request: /new/app
+2022-12-01 20:10:41,247 [INFO] Serving on port 8000...
+2022-12-01 20:10:41,247 [INFO] Press Ctrl+C to stop.
+2022-12-01 20:10:41,247 [INFO] Visit http://localhost:8000/
+2022-12-01 20:10:42,037 [INFO] [GET] Request: /new/app
+2022-12-01 20:13:02,205 [INFO] [GET] Request: /new/app
+2022-12-01 20:14:34,646 [INFO] Serving on port 8000...
+2022-12-01 20:14:34,646 [INFO] Press Ctrl+C to stop.
+2022-12-01 20:14:34,646 [INFO] Visit http://localhost:8000/
+2022-12-01 20:14:35,871 [INFO] [GET] Request: /new/app
+2022-12-01 20:14:43,636 [INFO] Serving on port 8000...
+2022-12-01 20:14:43,636 [INFO] Press Ctrl+C to stop.
+2022-12-01 20:14:43,636 [INFO] Visit http://localhost:8000/
+2022-12-01 20:19:13,121 [INFO] Serving on port 8000...
+2022-12-01 20:19:13,121 [INFO] Press Ctrl+C to stop.
+2022-12-01 20:19:13,121 [INFO] Visit http://localhost:8000/
+2022-12-01 20:19:16,090 [INFO] [GET] Request: /new/app
+2022-12-01 20:19:45,025 [INFO] Serving on port 8000...
+2022-12-01 20:19:45,025 [INFO] Press Ctrl+C to stop.
+2022-12-01 20:19:45,026 [INFO] Visit http://localhost:8000/
+2022-12-01 20:20:01,543 [INFO] Server shutdown.
+2022-12-01 20:20:01,679 [INFO] Serving on port 8000...
+2022-12-01 20:20:01,679 [INFO] Press Ctrl+C to stop.
+2022-12-01 20:20:01,679 [INFO] Visit http://localhost:8000/
+2022-12-01 20:20:08,695 [INFO] Server shutdown.
+2022-12-01 20:20:08,900 [INFO] Serving on port 8000...
+2022-12-01 20:20:08,900 [INFO] Press Ctrl+C to stop.
+2022-12-01 20:20:08,900 [INFO] Visit http://localhost:8000/
+2022-12-01 20:20:10,289 [INFO] [GET] Request: /new/app
+2022-12-01 20:20:22,512 [INFO] Serving on port 8000...
+2022-12-01 20:20:22,512 [INFO] Press Ctrl+C to stop.
+2022-12-01 20:20:22,512 [INFO] Visit http://localhost:8000/
+2022-12-01 20:21:32,431 [INFO] Serving on port 8000...
+2022-12-01 20:21:32,431 [INFO] Press Ctrl+C to stop.
+2022-12-01 20:21:32,431 [INFO] Visit http://localhost:8000/
+2022-12-01 20:21:44,403 [INFO] Serving on port 8000...
+2022-12-01 20:21:44,403 [INFO] Press Ctrl+C to stop.
+2022-12-01 20:21:44,403 [INFO] Visit http://localhost:8000/
+2022-12-01 20:22:20,842 [INFO] Serving on port 8000...
+2022-12-01 20:22:20,842 [INFO] Press Ctrl+C to stop.
+2022-12-01 20:22:20,842 [INFO] Visit http://localhost:8000/
+2022-12-01 20:22:53,408 [INFO] Serving on port 8000...
+2022-12-01 20:22:53,408 [INFO] Press Ctrl+C to stop.
+2022-12-01 20:22:53,408 [INFO] Visit http://localhost:8000/
+2022-12-01 20:23:22,631 [INFO] Serving on port 8000...
+2022-12-01 20:23:22,631 [INFO] Press Ctrl+C to stop.
+2022-12-01 20:23:22,631 [INFO] Visit http://localhost:8000/
+2022-12-01 20:23:38,253 [INFO] Serving on port 8000...
+2022-12-01 20:23:38,254 [INFO] Press Ctrl+C to stop.
+2022-12-01 20:23:38,254 [INFO] Visit http://localhost:8000/
+2022-12-01 20:23:49,135 [INFO] Serving on port 8000...
+2022-12-01 20:23:49,135 [INFO] Press Ctrl+C to stop.
+2022-12-01 20:23:49,135 [INFO] Visit http://localhost:8000/
+2022-12-01 20:26:05,684 [INFO] Serving on port 8000...
+2022-12-01 20:26:05,684 [INFO] Press Ctrl+C to stop.
+2022-12-01 20:26:05,684 [INFO] Visit http://localhost:8000/
+2022-12-01 20:27:02,254 [INFO] Serving on port 8000...
+2022-12-01 20:27:02,255 [INFO] Press Ctrl+C to stop.
+2022-12-01 20:27:02,255 [INFO] Visit http://localhost:8000/
+2022-12-01 20:33:33,883 [INFO] Serving on port 8000...
+2022-12-01 20:33:33,883 [INFO] Press Ctrl+C to stop.
+2022-12-01 20:33:33,883 [INFO] Visit http://localhost:8000/
+2022-12-01 20:35:42,209 [INFO] Serving on port 8000...
+2022-12-01 20:35:42,209 [INFO] Press Ctrl+C to stop.
+2022-12-01 20:35:42,209 [INFO] Visit http://localhost:8000/
+2022-12-01 20:36:21,692 [INFO] Serving on port 8000...
+2022-12-01 20:36:21,692 [INFO] Press Ctrl+C to stop.
+2022-12-01 20:36:21,692 [INFO] Visit http://localhost:8000/
+2022-12-01 20:36:25,467 [INFO] [GET] Request: /
+2022-12-01 20:36:25,468 [ERROR] Controller posts.index not found.
+2022-12-01 20:36:35,309 [INFO] Serving on port 8000...
+2022-12-01 20:36:35,309 [INFO] Press Ctrl+C to stop.
+2022-12-01 20:36:35,309 [INFO] Visit http://localhost:8000/
+2022-12-01 20:36:36,511 [INFO] [GET] Request: /
+2022-12-01 20:36:36,513 [ERROR] Controller home.index not found.
+2022-12-01 20:36:55,774 [INFO] [GET] Request: /
+2022-12-01 20:36:55,775 [ERROR] Controller home.index not found.
+2022-12-01 20:37:22,093 [INFO] Serving on port 8000...
+2022-12-01 20:37:22,093 [INFO] Press Ctrl+C to stop.
+2022-12-01 20:37:22,094 [INFO] Visit http://localhost:8000/
+2022-12-01 20:37:23,528 [INFO] [GET] Request: /
+2022-12-01 20:37:23,529 [ERROR] Controller home.index not found.
+2022-12-01 20:37:32,492 [INFO] Serving on port 8000...
+2022-12-01 20:37:32,492 [INFO] Press Ctrl+C to stop.
+2022-12-01 20:37:32,492 [INFO] Visit http://localhost:8000/
+2022-12-01 20:37:33,469 [INFO] [GET] Request: /
+2022-12-01 20:37:44,706 [INFO] Serving on port 8000...
+2022-12-01 20:37:44,706 [INFO] Press Ctrl+C to stop.
+2022-12-01 20:37:44,706 [INFO] Visit http://localhost:8000/
+2022-12-01 20:37:46,054 [INFO] [GET] Request: /

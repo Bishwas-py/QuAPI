@@ -1,9 +1,11 @@
-def authenticate(func):
-    print("authenticate")
+import functools
 
-    # This function is what we "replace" hello with
+
+def authenticate(func):
     def wrapper(*args, **kw):
-        print("args", args)
-        return func(*args, **kw)  # Call hello
+        request = args[0]
+        if request.authorization:
+            return func(*args, **kw)
+        return "Unauthorized Request", "401 Unauthorized"
 
     return wrapper
