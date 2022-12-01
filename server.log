@@ -1,0 +1,6 @@
+2022-12-01 17:45:24,671 [INFO] Serving on port 8000...
+2022-12-01 17:45:24,672 [INFO] Press Ctrl+C to stop.
+2022-12-01 17:45:24,672 [INFO] Visit http://localhost:8000/
+2022-12-01 17:45:27,961 [INFO] [GET] Request: /
+2022-12-01 17:45:38,971 [INFO] [GET] Request: /
+2022-12-01 17:46:43,623 [INFO] [GET] Request: /

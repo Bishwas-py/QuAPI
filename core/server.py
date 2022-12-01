@@ -1,22 +1,25 @@
 import importlib
 import json
-import re
-from pathlib import Path
+import os
 import logging
 
 from essentials import Request
-from route_config import paths
+from route_config import paths, CURRENT_DIR
 
-BASE_DIR = Path(__file__).resolve().parent
 GLOBAL_METHODS = ["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"]
 RESTRICTED_PATH_NAMES = ["/favicon.ico", "/robots.txt", "/sitemap.xml", "/"]
 
 # stout logging
+SERVER_LOG_FILE_PATH = os.path.join(CURRENT_DIR, "server.log")
+# create file if it doesn't exist
+if not os.path.exists(SERVER_LOG_FILE_PATH):
+    open(SERVER_LOG_FILE_PATH, 'a').close()
+
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(message)s",
     handlers=[
-        logging.FileHandler("debug.log"),
+        logging.FileHandler(SERVER_LOG_FILE_PATH),
         logging.StreamHandler()
     ]
 )
