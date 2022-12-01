@@ -296,3 +296,52 @@
 2022-12-01 20:37:44,706 [INFO] Press Ctrl+C to stop.
 2022-12-01 20:37:44,706 [INFO] Visit http://localhost:8000/
 2022-12-01 20:37:46,054 [INFO] [GET] Request: /
+2022-12-01 20:52:25,552 [INFO] Serving on port 8000...
+2022-12-01 20:52:25,553 [INFO] Press Ctrl+C to stop.
+2022-12-01 20:52:25,553 [INFO] Visit http://localhost:8000/
+2022-12-01 20:52:29,197 [INFO] [GET] Request: /
+2022-12-01 20:52:29,218 [INFO] [GET] Request: /
+2022-12-01 20:52:51,522 [INFO] Serving on port 8000...
+2022-12-01 20:52:51,522 [INFO] Press Ctrl+C to stop.
+2022-12-01 20:52:51,522 [INFO] Visit http://localhost:8000/
+2022-12-01 20:52:53,277 [INFO] [GET] Request: /
+2022-12-01 20:52:53,823 [INFO] [GET] Request: /
+2022-12-01 20:55:00,982 [INFO] Serving on port 8000...
+2022-12-01 20:55:00,982 [INFO] Press Ctrl+C to stop.
+2022-12-01 20:55:00,982 [INFO] Visit http://localhost:8000/
+2022-12-01 20:55:02,757 [INFO] [GET] Request: /
+2022-12-01 20:55:02,760 [ERROR] 400: 'allowed_methods' NOT FOUND
+2022-12-01 20:55:17,153 [INFO] Serving on port 8000...
+2022-12-01 20:55:17,154 [INFO] Press Ctrl+C to stop.
+2022-12-01 20:55:17,154 [INFO] Visit http://localhost:8000/
+2022-12-01 20:55:18,245 [INFO] [GET] Request: /
+2022-12-01 20:55:18,247 [ERROR] 400: 'allowed_methods' NOT FOUND
+2022-12-01 20:57:15,079 [INFO] Serving on port 8000...
+2022-12-01 20:57:15,079 [INFO] Press Ctrl+C to stop.
+2022-12-01 20:57:15,079 [INFO] Visit http://localhost:8000/
+2022-12-01 20:57:16,760 [INFO] [GET] Request: /
+2022-12-01 20:58:16,066 [INFO] Serving on port 8000...
+2022-12-01 20:58:16,066 [INFO] Press Ctrl+C to stop.
+2022-12-01 20:58:16,066 [INFO] Visit http://localhost:8000/
+2022-12-01 20:58:17,771 [INFO] [GET] Request: /
+2022-12-01 20:58:25,313 [INFO] Serving on port 8000...
+2022-12-01 20:58:25,313 [INFO] Press Ctrl+C to stop.
+2022-12-01 20:58:25,313 [INFO] Visit http://localhost:8000/
+2022-12-01 20:58:31,650 [INFO] [GET] Request: /
+2022-12-01 20:59:22,426 [INFO] Serving on port 8000...
+2022-12-01 20:59:22,426 [INFO] Press Ctrl+C to stop.
+2022-12-01 20:59:22,426 [INFO] Visit http://localhost:8000/
+2022-12-01 20:59:23,945 [INFO] [GET] Request: /
+2022-12-01 20:59:43,749 [INFO] Serving on port 8000...
+2022-12-01 20:59:43,749 [INFO] Press Ctrl+C to stop.
+2022-12-01 20:59:43,749 [INFO] Visit http://localhost:8000/
+2022-12-01 20:59:48,195 [INFO] [GET] Request: /
+2022-12-01 21:00:03,076 [INFO] Serving on port 8000...
+2022-12-01 21:00:03,076 [INFO] Press Ctrl+C to stop.
+2022-12-01 21:00:03,076 [INFO] Visit http://localhost:8000/
+2022-12-01 21:00:04,155 [INFO] [GET] Request: /
+2022-12-01 21:00:08,583 [INFO] [GET] Request: /
+2022-12-01 21:00:15,314 [INFO] Serving on port 8000...
+2022-12-01 21:00:15,314 [INFO] Press Ctrl+C to stop.
+2022-12-01 21:00:15,314 [INFO] Visit http://localhost:8000/
+2022-12-01 21:00:16,125 [INFO] [GET] Request: /

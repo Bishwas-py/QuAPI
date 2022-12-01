@@ -17,6 +17,7 @@ CURRENT_DIR = pathlib.Path(os.getcwd())
 paths = {}
 
 env = os.environ.get("ENV", "development")
+
 routes = yaml.load(open(CURRENT_DIR / "routes.yaml", "r"), Loader=yaml.FullLoader)
 
 # sets the global root path domain.com/

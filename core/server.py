@@ -66,6 +66,9 @@ def render_api(environ):
 
     try:
         mod = importlib.import_module(f"controllers.{controller_name}")
+        if paths[request.path].get("allowed_methods") is not None:
+            if request.method not in paths[request.path]["allowed_methods"]:
+                return f"Method is not allowed for path {request.path}", "405 Method Not Allowed"
         if hasattr(mod, request.method.lower()):
             controller_method = getattr(mod, request.method.lower())
             return controller_method(request), "200 OK"
