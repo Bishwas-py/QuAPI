@@ -3,6 +3,7 @@
 # call the correct method (get, post, put, delete, etc.)
 
 import os
+import pathlib
 import re
 from pathlib import Path
 
@@ -11,12 +12,12 @@ from constants import CONTROLLERS_ROOT, LOG_COLOR
 import yaml
 
 BASE_DIR = Path(__file__).resolve().parent.parent
-CURRENT_DIR = os.getcwd()
+CURRENT_DIR = pathlib.Path(os.getcwd())
 
 paths = {}
 
 env = os.environ.get("ENV", "development")
-routes = yaml.load(open(os.path.join(CURRENT_DIR, "routes.yaml"), "r"), Loader=yaml.FullLoader)
+routes = yaml.load(open(CURRENT_DIR / "routes.yaml", "r"), Loader=yaml.FullLoader)
 
 # sets the global root path domain.com/
 if routes.get("root"):

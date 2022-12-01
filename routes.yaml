@@ -5,6 +5,7 @@ resources:
   - home
   - car
   - new
+  - make
 tweaks:
   controller:
     posts.show:

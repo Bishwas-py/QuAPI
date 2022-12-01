@@ -3,13 +3,11 @@
 import argparse
 import logging
 import os
-import re
-
 import pathlib
 
 from constants import LOG_COLOR
 
-currentPath = pathlib.Path(__file__).parent.resolve()
+CURRENT_PATH = pathlib.Path(os.getcwd())
 
 
 def generate_content(params, handler_name, content, extension):
@@ -17,7 +15,7 @@ def generate_content(params, handler_name, content, extension):
     child_name = params[1]
 
     file_path = f"{handler_name}/{parent_name}"
-    directory = f"{currentPath / file_path}"
+    directory = f"{CURRENT_PATH / file_path}"
 
     if not os.path.exists(directory):
         os.makedirs(directory)
