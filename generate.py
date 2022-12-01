@@ -29,9 +29,9 @@ def generate_content(params, handler_name, content, extension):
 
 
 def controller_generator():
-    content = """context = {
-    'name': 'Job the wealthy'
-}"""
+    content = """def get(request):
+    return "Hello World", "200 OK"
+    """
     handler_name = 'controllers'
     extension = 'py'
     generate_content(args.controller, handler_name, content, extension)

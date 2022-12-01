@@ -12,7 +12,6 @@ CURRENT_DIR = Path(__file__).resolve().parent
 paths = {}
 
 env = os.environ.get("ENV", "development")
-
 routes = yaml.load(open(os.path.join(CURRENT_DIR, "routes.yaml"), "r"), Loader=yaml.FullLoader)
 
 # sets the global root path domain.com/
@@ -27,6 +26,7 @@ controller_tweaks = tweaks.get("controller")
 path_tweaks = tweaks.get("path")
 
 for key, value in controller_tweaks.items():
+    # Basically, reads and formats tweaks.controller from routes.yaml
     if type(value) is str:
         paths.update({
             f"/{value}": {'controller_name': key}
@@ -42,9 +42,14 @@ for key, value in controller_tweaks.items():
         })
 
 for key, value in path_tweaks.items():
+    # Reads and formats tweaks.path from routes.yaml
+    # Basically, it's a way to add custom paths to the routes
+    # without having to create a specific controller for it.
     paths.update({
-        f"{key}": {'controller_name': value}
+        f"{key}": {'controller_name': value.get("controller")}
     })
+
+print(paths)
 
 if resources:
     for resource in resources:

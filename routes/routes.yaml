@@ -3,6 +3,7 @@ resources:
   - posts
   - comments
   - home
+  - car
 tweaks:
   controller:
     posts.show:

@@ -8,6 +8,8 @@ from essentials import Request
 from routes.config import paths
 
 BASE_DIR = Path(__file__).resolve().parent
+GLOBAL_METHODS = ["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"]
+RESTRICTED_PATH_NAMES = ["/favicon.ico", "/robots.txt", "/sitemap.xml", "/"]
 
 # stout logging
 logging.basicConfig(
@@ -23,13 +25,31 @@ logging.basicConfig(
 def render_api(environ):
     """
     Renders APIs, where actual path is unformulated slash containing string.
+    :param environ: WSGI environment
+    :return: tuple of (data, response)
+
+    This function is the main handler for the server.
+    It takes the WSGI environment and returns a tuple of (data, response).
+
+    The data is the data that will be returned to the client.
+    The response is the HTTP response code.
+
+    The data can be a string, list, or dict.
+    The response can be any valid HTTP response code.
     """
     request = Request(environ)
-
-    if len(request.path.split("/")) == 2:
+    if len(request.path.split("/")) == 2 and not request.path in RESTRICTED_PATH_NAMES:
+        # if the path is a single slash, then it's a root path,
+        # and we need to return the root controller; for /home it's home/index
         request.path = f"{request.path}/index"
 
-    controller_name = paths[request.path]['controller_name']
+    try:
+        # now, we need to get the controller name
+        # the controller name is the name of the controller file; for /home it's home/index.py
+        # it doesn't use .get() because we want to raise an error if the path doesn't exist; aggressive
+        controller_name = paths[request.path]['controller_name']
+    except KeyError:
+        return f"404 Not Found [{request.path}]", "404 Not Found"
 
     if type(request.method) is not str:
         return "Request method is not understood.", "400 Bad Request"
@@ -39,15 +59,17 @@ def render_api(environ):
     if request.path != "/":
         request.path = request.path.lstrip('/')
 
-    #  paths[path] gives filename i.e. index.svelte
     try:
         mod = importlib.import_module(f"controllers.{controller_name}")
         if hasattr(mod, request.method.lower()):
             controller_method = getattr(mod, request.method.lower())
             return controller_method(request), "200 OK"
-        else:
+        elif request.method in GLOBAL_METHODS:
             logging.error(f"Method {request.method} not found in {controller_name}")
             return "Method not allowed.", "405 METHOD NOT ALLOWED"
+        else:
+            logging.error(f"The method {request.method} does not exist.")
+            return f"The method {request.method} does not exist.", "405 METHOD NOT ALLOWED"
 
     except ModuleNotFoundError:
         logging.error(f"Controller {controller_name} not found.")
@@ -69,6 +91,9 @@ def app(environ, start_response):
     if type(raw) is tuple and len(raw) == 2:
         dumped_data = json.dumps(raw[0])
         dumped_data_content_type = raw[1]
+    elif type(raw) is list:
+        dumped_data = json.dumps(raw)
+        dumped_data_content_type = 'application/json'
     elif type(raw) is str:
         dumped_data = raw
         dumped_data_content_type = "text/plain"

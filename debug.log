@@ -424,3 +424,150 @@
 2022-11-22 17:55:52,251 [INFO] Visit http://localhost:8000/
 2022-11-22 17:55:57,342 [INFO] [POST] Request: /posts/index
 2022-11-22 17:56:06,373 [INFO] [POST] Request: /posts/index
+2022-12-01 16:39:44,955 [INFO] Serving on port 8000...
+2022-12-01 16:39:44,956 [INFO] Press Ctrl+C to stop.
+2022-12-01 16:39:44,956 [INFO] Visit http://localhost:8000/
+2022-12-01 16:39:58,676 [INFO] [GET] Request: /home/home
+2022-12-01 16:40:11,991 [INFO] [GET] Request: /comments/index
+2022-12-01 16:40:11,995 [ERROR] Method GET not found in comments.index
+2022-12-01 16:40:22,777 [INFO] [GET] Request: /comments/index
+2022-12-01 16:40:22,777 [ERROR] Method GET not found in comments.index
+2022-12-01 16:40:50,635 [INFO] [GET] Request: /comments/index
+2022-12-01 16:40:50,635 [ERROR] Method GET not found in comments.index
+2022-12-01 16:43:20,867 [INFO] [GET] Request: /comments/index
+2022-12-01 16:43:20,868 [ERROR] Method GET not found in comments.index
+2022-12-01 16:43:21,670 [INFO] [GET] Request: /comments/index
+2022-12-01 16:43:21,670 [ERROR] Method GET not found in comments.index
+2022-12-01 16:43:23,691 [INFO] Serving on port 8000...
+2022-12-01 16:43:23,691 [INFO] Press Ctrl+C to stop.
+2022-12-01 16:43:23,691 [INFO] Visit http://localhost:8000/
+2022-12-01 16:43:24,499 [INFO] [GET] Request: /comments/index
+2022-12-01 16:43:24,501 [ERROR] Method GET not found in comments.index
+2022-12-01 16:43:25,249 [INFO] [GET] Request: /comments/index
+2022-12-01 16:43:25,250 [ERROR] Method GET not found in comments.index
+2022-12-01 16:43:25,781 [INFO] [GET] Request: /comments/index
+2022-12-01 16:43:25,782 [ERROR] Method GET not found in comments.index
+2022-12-01 16:43:33,084 [INFO] Serving on port 8000...
+2022-12-01 16:43:33,084 [INFO] Press Ctrl+C to stop.
+2022-12-01 16:43:33,084 [INFO] Visit http://localhost:8000/
+2022-12-01 16:43:34,449 [INFO] [GET] Request: /comments/index
+2022-12-01 16:43:38,608 [INFO] Serving on port 8000...
+2022-12-01 16:43:38,608 [INFO] Press Ctrl+C to stop.
+2022-12-01 16:43:38,609 [INFO] Visit http://localhost:8000/
+2022-12-01 16:44:10,269 [INFO] Serving on port 8000...
+2022-12-01 16:44:10,269 [INFO] Press Ctrl+C to stop.
+2022-12-01 16:44:10,270 [INFO] Visit http://localhost:8000/
+2022-12-01 16:44:12,927 [INFO] [GET] Request: /comments/index
+2022-12-01 16:44:12,929 [ERROR] Method GET not found in comments.index
+2022-12-01 16:44:39,003 [INFO] Serving on port 8000...
+2022-12-01 16:44:39,003 [INFO] Press Ctrl+C to stop.
+2022-12-01 16:44:39,003 [INFO] Visit http://localhost:8000/
+2022-12-01 16:44:40,149 [INFO] [GET] Request: /comments/index
+2022-12-01 16:44:40,151 [ERROR] Method GET not found in comments.index
+2022-12-01 16:44:41,036 [INFO] [GET] Request: /comments/index
+2022-12-01 16:44:41,036 [ERROR] Method GET not found in comments.index
+2022-12-01 16:47:22,768 [INFO] Serving on port 8000...
+2022-12-01 16:47:22,769 [INFO] Press Ctrl+C to stop.
+2022-12-01 16:47:22,769 [INFO] Visit http://localhost:8000/
+2022-12-01 16:47:31,186 [INFO] Serving on port 8000...
+2022-12-01 16:47:31,186 [INFO] Press Ctrl+C to stop.
+2022-12-01 16:47:31,186 [INFO] Visit http://localhost:8000/
+2022-12-01 16:47:34,251 [INFO] Serving on port 8000...
+2022-12-01 16:47:34,251 [INFO] Press Ctrl+C to stop.
+2022-12-01 16:47:34,251 [INFO] Visit http://localhost:8000/
+2022-12-01 16:47:46,323 [INFO] Serving on port 8000...
+2022-12-01 16:47:46,323 [INFO] Press Ctrl+C to stop.
+2022-12-01 16:47:46,324 [INFO] Visit http://localhost:8000/
+2022-12-01 16:48:40,983 [INFO] Serving on port 8000...
+2022-12-01 16:48:40,984 [INFO] Press Ctrl+C to stop.
+2022-12-01 16:48:40,984 [INFO] Visit http://localhost:8000/
+2022-12-01 16:48:53,559 [INFO] Serving on port 8000...
+2022-12-01 16:48:53,559 [INFO] Press Ctrl+C to stop.
+2022-12-01 16:48:53,559 [INFO] Visit http://localhost:8000/
+2022-12-01 16:49:18,582 [INFO] [GET] Request: /home/home
+2022-12-01 16:49:23,979 [INFO] [GET] Request: /home/home
+2022-12-01 16:49:44,559 [INFO] Serving on port 8000...
+2022-12-01 16:49:44,559 [INFO] Press Ctrl+C to stop.
+2022-12-01 16:49:44,559 [INFO] Visit http://localhost:8000/
+2022-12-01 16:49:46,548 [INFO] [GET] Request: /home/home
+2022-12-01 16:50:10,832 [INFO] Serving on port 8000...
+2022-12-01 16:50:10,833 [INFO] Press Ctrl+C to stop.
+2022-12-01 16:50:10,833 [INFO] Visit http://localhost:8000/
+2022-12-01 16:50:50,757 [INFO] Serving on port 8000...
+2022-12-01 16:50:50,758 [INFO] Press Ctrl+C to stop.
+2022-12-01 16:50:50,758 [INFO] Visit http://localhost:8000/
+2022-12-01 16:51:01,246 [INFO] Serving on port 8000...
+2022-12-01 16:51:01,247 [INFO] Press Ctrl+C to stop.
+2022-12-01 16:51:01,247 [INFO] Visit http://localhost:8000/
+2022-12-01 16:51:02,316 [INFO] [GET] Request: /car/car
+2022-12-01 16:51:15,949 [INFO] Serving on port 8000...
+2022-12-01 16:51:15,949 [INFO] Press Ctrl+C to stop.
+2022-12-01 16:51:15,949 [INFO] Visit http://localhost:8000/
+2022-12-01 16:51:17,054 [INFO] [GET] Request: /car/car
+2022-12-01 16:51:17,924 [INFO] [GET] Request: /car/car
+2022-12-01 16:52:49,118 [INFO] Serving on port 8000...
+2022-12-01 16:52:49,118 [INFO] Press Ctrl+C to stop.
+2022-12-01 16:52:49,118 [INFO] Visit http://localhost:8000/
+2022-12-01 16:52:50,214 [INFO] [GET] Request: /car/car
+2022-12-01 16:52:55,689 [INFO] Serving on port 8000...
+2022-12-01 16:52:55,690 [INFO] Press Ctrl+C to stop.
+2022-12-01 16:52:55,690 [INFO] Visit http://localhost:8000/
+2022-12-01 16:53:30,372 [INFO] Serving on port 8000...
+2022-12-01 16:53:30,372 [INFO] Press Ctrl+C to stop.
+2022-12-01 16:53:30,372 [INFO] Visit http://localhost:8000/
+2022-12-01 16:53:31,284 [INFO] [GET] Request: /car/car
+2022-12-01 16:53:31,958 [INFO] [GET] Request: /car/car
+2022-12-01 16:54:01,837 [INFO] Serving on port 8000...
+2022-12-01 16:54:01,837 [INFO] Press Ctrl+C to stop.
+2022-12-01 16:54:01,837 [INFO] Visit http://localhost:8000/
+2022-12-01 16:54:03,197 [INFO] [GET] Request: /car/car
+2022-12-01 16:54:27,616 [INFO] Serving on port 8000...
+2022-12-01 16:54:27,616 [INFO] Press Ctrl+C to stop.
+2022-12-01 16:54:27,616 [INFO] Visit http://localhost:8000/
+2022-12-01 16:54:28,916 [INFO] [GET] Request: /car/car
+2022-12-01 16:55:56,284 [INFO] Serving on port 8000...
+2022-12-01 16:55:56,284 [INFO] Press Ctrl+C to stop.
+2022-12-01 16:55:56,284 [INFO] Visit http://localhost:8000/
+2022-12-01 16:55:57,474 [INFO] [GET] Request: /car/car
+2022-12-01 16:56:06,034 [INFO] Serving on port 8000...
+2022-12-01 16:56:06,035 [INFO] Press Ctrl+C to stop.
+2022-12-01 16:56:06,035 [INFO] Visit http://localhost:8000/
+2022-12-01 16:56:07,064 [INFO] [GET] Request: /car/car
+2022-12-01 16:56:07,274 [INFO] [GET] Request: /favicon.ico
+2022-12-01 16:56:07,275 [ERROR] Controller {'controller': 'home.home'} not found.
+2022-12-01 16:58:18,170 [INFO] Serving on port 8000...
+2022-12-01 16:58:18,170 [INFO] Press Ctrl+C to stop.
+2022-12-01 16:58:18,170 [INFO] Visit http://localhost:8000/
+2022-12-01 16:58:54,409 [INFO] Serving on port 8000...
+2022-12-01 16:58:54,409 [INFO] Press Ctrl+C to stop.
+2022-12-01 16:58:54,409 [INFO] Visit http://localhost:8000/
+2022-12-01 16:59:55,429 [INFO] Serving on port 8000...
+2022-12-01 16:59:55,429 [INFO] Press Ctrl+C to stop.
+2022-12-01 16:59:55,429 [INFO] Visit http://localhost:8000/
+2022-12-01 16:59:57,471 [INFO] [GET] Request: /car/car
+2022-12-01 17:00:13,021 [INFO] [GET] Request: /favicon.ico
+2022-12-01 17:01:12,317 [INFO] Serving on port 8000...
+2022-12-01 17:01:12,317 [INFO] Press Ctrl+C to stop.
+2022-12-01 17:01:12,317 [INFO] Visit http://localhost:8000/
+2022-12-01 17:06:20,282 [INFO] Serving on port 8000...
+2022-12-01 17:06:20,282 [INFO] Press Ctrl+C to stop.
+2022-12-01 17:06:20,282 [INFO] Visit http://localhost:8000/
+2022-12-01 17:06:50,881 [INFO] Serving on port 8000...
+2022-12-01 17:06:50,881 [INFO] Press Ctrl+C to stop.
+2022-12-01 17:06:50,881 [INFO] Visit http://localhost:8000/
+2022-12-01 17:08:07,013 [INFO] Serving on port 8000...
+2022-12-01 17:08:07,013 [INFO] Press Ctrl+C to stop.
+2022-12-01 17:08:07,013 [INFO] Visit http://localhost:8000/
+2022-12-01 17:08:26,452 [INFO] Serving on port 8000...
+2022-12-01 17:08:26,452 [INFO] Press Ctrl+C to stop.
+2022-12-01 17:08:26,452 [INFO] Visit http://localhost:8000/
+2022-12-01 17:08:29,099 [INFO] [GET] Request: /
+2022-12-01 17:08:43,398 [INFO] Serving on port 8000...
+2022-12-01 17:08:43,398 [INFO] Press Ctrl+C to stop.
+2022-12-01 17:08:43,398 [INFO] Visit http://localhost:8000/
+2022-12-01 17:08:45,752 [INFO] [GET] Request: /
+2022-12-01 17:09:08,828 [INFO] Serving on port 8000...
+2022-12-01 17:09:08,828 [INFO] Press Ctrl+C to stop.
+2022-12-01 17:09:08,828 [INFO] Visit http://localhost:8000/
+2022-12-01 17:09:09,911 [INFO] [GET] Request: /favicon.ico
+2022-12-01 17:09:15,075 [INFO] [GET] Request: /
