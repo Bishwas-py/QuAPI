@@ -347,3 +347,103 @@
 2022-12-01 21:00:16,125 [INFO] [GET] Request: /
 2022-12-01 21:01:37,750 [INFO] [GET] Request: /
 2022-12-01 21:01:50,156 [INFO] [GET] Request: /
+2022-12-01 21:31:28,144 [INFO] [VIEW] Request: /
+2022-12-01 21:33:21,931 [INFO] Serving on port 8000...
+2022-12-01 21:33:21,931 [INFO] Press Ctrl+C to stop.
+2022-12-01 21:33:21,931 [INFO] Visit http://localhost:8000/
+2022-12-01 21:33:35,498 [INFO] Serving on port 8000...
+2022-12-01 21:33:35,498 [INFO] Press Ctrl+C to stop.
+2022-12-01 21:33:35,498 [INFO] Visit http://localhost:8000/
+2022-12-01 21:33:54,909 [INFO] Serving on port 8000...
+2022-12-01 21:33:54,910 [INFO] Press Ctrl+C to stop.
+2022-12-01 21:33:54,910 [INFO] Visit http://localhost:8000/
+2022-12-01 21:33:56,948 [INFO] [VIEW] Request: /post/index
+2022-12-01 21:33:56,953 [ERROR] 400: 'post/index' NOT FOUND
+2022-12-01 21:34:08,887 [INFO] [GET] Request: /post/index
+2022-12-01 21:34:08,887 [ERROR] 400: 'post/index' NOT FOUND
+2022-12-01 21:34:29,623 [INFO] Serving on port 8000...
+2022-12-01 21:34:29,623 [INFO] Press Ctrl+C to stop.
+2022-12-01 21:34:29,623 [INFO] Visit http://localhost:8000/
+2022-12-01 21:35:02,765 [INFO] Serving on port 8000...
+2022-12-01 21:35:02,766 [INFO] Press Ctrl+C to stop.
+2022-12-01 21:35:02,766 [INFO] Visit http://localhost:8000/
+2022-12-01 21:35:34,419 [INFO] [GET] Request: /
+2022-12-01 21:35:37,758 [INFO] [GET] Request: /post/index
+2022-12-01 21:35:37,759 [ERROR] 400: 'post/index' NOT FOUND
+2022-12-01 21:35:41,988 [INFO] [GET] Request: /post/index
+2022-12-01 21:35:41,988 [ERROR] 400: 'post/index' NOT FOUND
+2022-12-01 21:36:04,919 [INFO] Serving on port 8000...
+2022-12-01 21:36:04,920 [INFO] Press Ctrl+C to stop.
+2022-12-01 21:36:04,920 [INFO] Visit http://localhost:8000/
+2022-12-01 21:36:08,034 [INFO] [GET] Request: /post/index
+2022-12-01 21:36:08,037 [ERROR] 400: 'post/index' NOT FOUND
+2022-12-01 21:36:18,260 [INFO] Serving on port 8000...
+2022-12-01 21:36:18,260 [INFO] Press Ctrl+C to stop.
+2022-12-01 21:36:18,260 [INFO] Visit http://localhost:8000/
+2022-12-01 21:36:26,123 [INFO] Serving on port 8000...
+2022-12-01 21:36:26,123 [INFO] Press Ctrl+C to stop.
+2022-12-01 21:36:26,123 [INFO] Visit http://localhost:8000/
+2022-12-01 21:36:29,204 [INFO] [GET] Request: /post/index
+2022-12-01 21:36:29,211 [ERROR] 400: 'post/index' NOT FOUND
+2022-12-01 21:36:35,814 [INFO] Serving on port 8000...
+2022-12-01 21:36:35,814 [INFO] Press Ctrl+C to stop.
+2022-12-01 21:36:35,814 [INFO] Visit http://localhost:8000/
+2022-12-01 21:37:06,308 [INFO] Serving on port 8000...
+2022-12-01 21:37:06,308 [INFO] Press Ctrl+C to stop.
+2022-12-01 21:37:06,308 [INFO] Visit http://localhost:8000/
+2022-12-01 21:37:26,020 [INFO] Serving on port 8000...
+2022-12-01 21:37:26,020 [INFO] Press Ctrl+C to stop.
+2022-12-01 21:37:26,020 [INFO] Visit http://localhost:8000/
+2022-12-01 21:37:30,501 [INFO] Serving on port 8000...
+2022-12-01 21:37:30,501 [INFO] Press Ctrl+C to stop.
+2022-12-01 21:37:30,501 [INFO] Visit http://localhost:8000/
+2022-12-01 21:37:43,432 [INFO] [GET] Request: /post/index
+2022-12-01 21:37:43,434 [ERROR] 400: 'post/index' NOT FOUND
+2022-12-01 21:38:44,231 [INFO] Serving on port 8000...
+2022-12-01 21:38:44,232 [INFO] Press Ctrl+C to stop.
+2022-12-01 21:38:44,232 [INFO] Visit http://localhost:8000/
+2022-12-01 21:38:47,305 [INFO] [GET] Request: /post/index
+2022-12-01 21:38:47,307 [ERROR] 400: 'post/index' NOT FOUND
+2022-12-01 21:39:02,861 [INFO] Serving on port 8000...
+2022-12-01 21:39:02,861 [INFO] Press Ctrl+C to stop.
+2022-12-01 21:39:02,861 [INFO] Visit http://localhost:8000/
+2022-12-01 21:39:06,179 [INFO] [GET] Request: /post/index
+2022-12-01 21:39:06,180 [ERROR] 400: 'post/index' NOT FOUND
+2022-12-01 21:39:13,215 [INFO] [GET] Request: /post/index
+2022-12-01 21:39:13,215 [ERROR] 400: 'post/index' NOT FOUND
+2022-12-01 21:39:16,238 [INFO] [GET] Request: /post/index
+2022-12-01 21:39:16,238 [ERROR] 400: 'post/index' NOT FOUND
+2022-12-01 21:39:25,893 [INFO] Serving on port 8000...
+2022-12-01 21:39:25,894 [INFO] Press Ctrl+C to stop.
+2022-12-01 21:39:25,894 [INFO] Visit http://localhost:8000/
+2022-12-01 21:39:26,844 [INFO] [GET] Request: /post/index
+2022-12-01 21:39:26,845 [ERROR] 400: 'post/index' NOT FOUND
+2022-12-01 21:39:58,828 [INFO] Serving on port 8000...
+2022-12-01 21:39:58,828 [INFO] Press Ctrl+C to stop.
+2022-12-01 21:39:58,828 [INFO] Visit http://localhost:8000/
+2022-12-01 21:39:59,818 [INFO] [GET] Request: /post/index
+2022-12-01 21:39:59,820 [ERROR] 400: 'post/index' NOT FOUND
+2022-12-01 21:40:43,133 [INFO] Serving on port 8000...
+2022-12-01 21:40:43,133 [INFO] Press Ctrl+C to stop.
+2022-12-01 21:40:43,133 [INFO] Visit http://localhost:8000/
+2022-12-01 21:40:44,251 [INFO] [GET] Request: /post/index
+2022-12-01 21:40:44,252 [ERROR] 400: 'post/index' NOT FOUND
+2022-12-01 21:40:56,236 [INFO] Serving on port 8000...
+2022-12-01 21:40:56,236 [INFO] Press Ctrl+C to stop.
+2022-12-01 21:40:56,236 [INFO] Visit http://localhost:8000/
+2022-12-01 21:40:57,761 [INFO] [GET] Request: /post/index
+2022-12-01 21:40:57,762 [ERROR] 400: 'post/index' NOT FOUND
+2022-12-01 21:41:16,254 [INFO] Serving on port 8000...
+2022-12-01 21:41:16,254 [INFO] Press Ctrl+C to stop.
+2022-12-01 21:41:16,255 [INFO] Visit http://localhost:8000/
+2022-12-01 21:41:20,869 [INFO] [GET] Request: /post/index
+2022-12-01 21:41:20,870 [ERROR] 400: 'post/index' NOT FOUND
+2022-12-01 21:41:38,544 [INFO] Serving on port 8000...
+2022-12-01 21:41:38,544 [INFO] Press Ctrl+C to stop.
+2022-12-01 21:41:38,544 [INFO] Visit http://localhost:8000/
+2022-12-01 21:41:39,746 [INFO] [GET] Request: /post/index
+2022-12-01 21:42:01,522 [INFO] Serving on port 8000...
+2022-12-01 21:42:01,522 [INFO] Press Ctrl+C to stop.
+2022-12-01 21:42:01,522 [INFO] Visit http://localhost:8000/
+2022-12-01 21:42:03,412 [INFO] [GET] Request: /post/index
+2022-12-01 21:42:07,384 [INFO] [GET] Request: /

@@ -1,6 +1,7 @@
 root: home.home # this path can't be overridden
 resources:
   - home
+  - post
 tweaks:
   controller:
     home.home:

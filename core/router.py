@@ -55,11 +55,6 @@ for key, value in path_tweaks.items():
         f"{key}": {'controller_name': value.get("controller")}
     })
 
-# print paths as table
-print(f"{LOG_COLOR.OK_CYAN}{'Path':<20}{'Controller':<20}{'Allowed Methods'}{LOG_COLOR.ENDC}")
-for key, value in paths.items():
-    print(f"{key:<20}{value.get('controller_name'):<20}{value.get('allowed_methods')}")
-
 if resources:
     for resource in resources:
         try:
@@ -82,3 +77,9 @@ if resources:
             print(f"{LOG_COLOR.FAIL}FileNotFoundError: {e}{LOG_COLOR.ENDC}")
             print(
                 f"{LOG_COLOR.WARNING}Please create a directory named '{resource}' in '{CONTROLLERS_ROOT}' directory.{LOG_COLOR.ENDC}")
+
+
+# print paths as table
+print(f"{LOG_COLOR.OK_CYAN}{'Path':<20}{'Controller':<20}{'Allowed Methods'}{LOG_COLOR.ENDC}")
+for key, value in paths.items():
+    print(f"{key:<20}{value.get('controller_name'):<20}{value.get('allowed_methods')}")

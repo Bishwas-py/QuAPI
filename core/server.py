@@ -42,10 +42,12 @@ def render_api(environ):
     The response can be any valid HTTP response code.
     """
     request = Request(environ)
+    print(request.path)
     if len(request.path.split("/")) == 2 and not request.path in RESTRICTED_PATH_NAMES:
         # if the path is a single slash, then it's a root path,
         # and we need to return the root controller; for /home it's home/index
         request.path = f"{request.path}/index"
+    print(request.path, paths[request.path])
 
     try:
         # now, we need to get the controller name
@@ -61,14 +63,13 @@ def render_api(environ):
 
     logging.info(f"[{request.method}] Request: {request.path}")
 
-    if request.path != "/":
-        request.path = request.path.lstrip('/')
-
     try:
-        mod = importlib.import_module(f"controllers.{controller_name}")
         if paths[request.path].get("allowed_methods") is not None:
+            print("allowed methods")
             if request.method not in paths[request.path]["allowed_methods"]:
                 return f"Method is not allowed for path {request.path}", "405 Method Not Allowed"
+
+        mod = importlib.import_module(f"controllers.{controller_name}")
         if hasattr(mod, request.method.lower()):
             controller_method = getattr(mod, request.method.lower())
             return controller_method(request), "200 OK"
@@ -130,4 +131,3 @@ if __name__ == "__main__":
     logging.info('Visit http://localhost:8000/')
     task = threading.Thread(target=httpd.serve_forever)
     task.start()
-
