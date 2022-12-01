@@ -7,7 +7,7 @@ import re
 
 import pathlib
 
-from rigids import SColor
+from constants import LOG_COLOR
 
 currentPath = pathlib.Path(__file__).parent.resolve()
 
@@ -39,7 +39,7 @@ def controller_generator():
 
 # Instantiate the parser
 parser = argparse.ArgumentParser(
-    description=f'{SColor.OKCYAN}{SColor.BOLD}Generator Handler for {SColor.UNDERLINE}FyMO{SColor.ENDC}')
+    description=f'{LOG_COLOR.OK_CYAN}{LOG_COLOR.BOLD}Generator Handler for {LOG_COLOR.UNDERLINE}FyMO{LOG_COLOR.ENDC}')
 
 # make default value for controller
 parser.add_argument('-c', '--controller', type=str,
@@ -52,4 +52,4 @@ try:
         controller_generator()
 
 except PermissionError:
-    print(f"{SColor.FAIL}You don't have any permissions to do this, please use admin privileges.{SColor.ENDC}")
+    print(f"{LOG_COLOR.FAIL}You don't have any permissions to do this, please use admin privileges.{LOG_COLOR.ENDC}")

@@ -5,7 +5,7 @@ from pathlib import Path
 import logging
 
 from essentials import Request
-from routes.config import paths
+from route_config import paths
 
 BASE_DIR = Path(__file__).resolve().parent
 GLOBAL_METHODS = ["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"]
@@ -49,7 +49,8 @@ def render_api(environ):
         # it doesn't use .get() because we want to raise an error if the path doesn't exist; aggressive
         controller_name = paths[request.path]['controller_name']
     except KeyError:
-        return f"404 Not Found [{request.path}]", "404 Not Found"
+        return f"""404 Not Found [{request.path}]. Make sure you have a controller
+         for this path and you have resourced it to routes.yaml""", "404 Not Found"
 
     if type(request.method) is not str:
         return "Request method is not understood.", "400 Bad Request"

@@ -2,12 +2,12 @@ import os
 import re
 from pathlib import Path
 
-from rigids import controllers_root, SColor
+from constants import CONTROLLERS_ROOT, LOG_COLOR
 # import PyYAML
 import yaml
 
 BASE_DIR = Path(__file__).resolve().parent.parent
-CURRENT_DIR = Path(__file__).resolve().parent
+CURRENT_DIR = os.getcwd()
 
 paths = {}
 
@@ -49,13 +49,16 @@ for key, value in path_tweaks.items():
         f"{key}": {'controller_name': value.get("controller")}
     })
 
-print(paths)
+# print paths as table
+print(f"{LOG_COLOR.OK_CYAN}{'Path':<20}{'Controller':<20}{'Allowed Methods'}{LOG_COLOR.ENDC}")
+for key, value in paths.items():
+    print(f"{key:<20}{value.get('controller_name'):<20}{value.get('allowed_methods')}")
 
 if resources:
     for resource in resources:
         try:
             excluded_directories = {"__pycache__", "templates", "__init__.py"}
-            controllers_dir = [x for x in os.listdir(os.path.join(controllers_root, resource)) if
+            controllers_dir = [x for x in os.listdir(os.path.join(CONTROLLERS_ROOT, resource)) if
                                x not in excluded_directories]
 
             for controller_file in controllers_dir:
@@ -70,6 +73,6 @@ if resources:
                     }
                 )
         except FileNotFoundError as e:
-            print(f"{SColor.FAIL}FileNotFoundError: {e}{SColor.ENDC}")
+            print(f"{LOG_COLOR.FAIL}FileNotFoundError: {e}{LOG_COLOR.ENDC}")
             print(
-                f"{SColor.WARNING}Please create a directory named '{resource}' in '{controllers_root}' directory.{SColor.ENDC}")
+                f"{LOG_COLOR.WARNING}Please create a directory named '{resource}' in '{CONTROLLERS_ROOT}' directory.{LOG_COLOR.ENDC}")

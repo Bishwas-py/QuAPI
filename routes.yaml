@@ -4,6 +4,7 @@ resources:
   - comments
   - home
   - car
+  - new
 tweaks:
   controller:
     posts.show:
