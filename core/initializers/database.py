@@ -15,8 +15,18 @@ if os.path.exists(CURRENT_DIR / "db.yaml"):
         dev_db = db_config.get("development")
         if dev_db:
             db = orm.Database()
-            db.bind(provider=dev_db.get("provider"), filename=dev_db.get("filename"))
+            filename = dev_db.get("filename")
+            provider = dev_db.get("provider")
+            if provider == "sqlite":
+                if filename:
+                    if not os.path.exists(CURRENT_DIR / filename):
+                        open(CURRENT_DIR / filename, 'a').close()
+                    dev_db.update({"filename": str(CURRENT_DIR / filename)})
+
+            db.bind(**dev_db)
             orm.set_sql_debug(True)
+            db.generate_mapping(create_tables=True)
+            print("Database initialized")
         else:
             logging.warning("No development database found in db.yaml")
     elif ENV == "production":
@@ -24,8 +34,10 @@ if os.path.exists(CURRENT_DIR / "db.yaml"):
         if prod_db:
             db = orm.Database()
             db.bind(**prod_db)
+            db.generate_mapping(create_tables=True)
         else:
             logging.warning("No production database found in db.yaml")
 
 else:
     logging.warning("No db.yaml found, skipping database initialization")
+

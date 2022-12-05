@@ -1,5 +1,6 @@
-provider: sqlite
-filename: db.sqlite3
+development:
+  provider: sqlite
+  filename: db.sqlite3
 
 # user: root
 # password: root
