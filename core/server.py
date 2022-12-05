@@ -1,29 +1,12 @@
 import importlib
 import json
-import os
 import logging
-import threading
 
 from essentials import Request
-from router import paths, CURRENT_DIR
+from core.initializers.router import paths
 
 GLOBAL_METHODS = ["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"]
 RESTRICTED_PATH_NAMES = ["/favicon.ico", "/robots.txt", "/sitemap.xml", "/"]
-
-# stout logging
-SERVER_LOG_FILE_PATH = os.path.join(CURRENT_DIR, "server.log")
-# create file if it doesn't exist
-if not os.path.exists(SERVER_LOG_FILE_PATH):
-    open(SERVER_LOG_FILE_PATH, 'a').close()
-
-logging.basicConfig(
-    level=logging.INFO,
-    format="%(asctime)s [%(levelname)s] %(message)s",
-    handlers=[
-        logging.FileHandler(SERVER_LOG_FILE_PATH),
-        logging.StreamHandler()
-    ]
-)
 
 
 def render_api(environ):
@@ -42,12 +25,10 @@ def render_api(environ):
     The response can be any valid HTTP response code.
     """
     request = Request(environ)
-    print(request.path)
     if len(request.path.split("/")) == 2 and not request.path in RESTRICTED_PATH_NAMES:
         # if the path is a single slash, then it's a root path,
         # and we need to return the root controller; for /home it's home/index
         request.path = f"{request.path}/index"
-    print(request.path, paths[request.path])
 
     try:
         # now, we need to get the controller name
@@ -55,8 +36,8 @@ def render_api(environ):
         # it doesn't use .get() because we want to raise an error if the path doesn't exist; aggressive
         controller_name = paths[request.path]['controller_name']
     except KeyError:
-        return f"""404 Not Found [{request.path}]. Make sure you have a controller
-         for this path and you have resourced it to routes.yaml""", "404 Not Found"
+        return f"404 Not Found [{request.path}]. Make sure you have a controllerfor this path" \
+               f" and you have resourced it to routes.yaml""", "404 Not Found"
 
     if type(request.method) is not str:
         return "Request method is not understood.", "400 Bad Request"
@@ -65,7 +46,6 @@ def render_api(environ):
 
     try:
         if paths[request.path].get("allowed_methods") is not None:
-            print("allowed methods")
             if request.method not in paths[request.path]["allowed_methods"]:
                 return f"Method is not allowed for path {request.path}", "405 Method Not Allowed"
 
@@ -129,5 +109,6 @@ if __name__ == "__main__":
     logging.info("Serving on port 8000...")
     logging.info("Press Ctrl+C to stop.")
     logging.info('Visit http://localhost:8000/')
-    task = threading.Thread(target=httpd.serve_forever)
-    task.start()
+
+    # Serve until process is killed
+    httpd.serve_forever()

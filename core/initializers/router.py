@@ -5,18 +5,14 @@
 import os
 import pathlib
 import re
-from pathlib import Path
-
-from constants import CONTROLLERS_ROOT, LOG_COLOR
-# import PyYAML
 import yaml
 
-BASE_DIR = Path(__file__).resolve().parent.parent
-CURRENT_DIR = pathlib.Path(os.getcwd())
+from ..constants import CONTROLLERS_ROOT, LOG_COLOR
+
 
 paths = {}
 
-env = os.environ.get("ENV", "development")
+CURRENT_DIR = pathlib.Path(os.getcwd())
 
 routes = yaml.load(open(CURRENT_DIR / "routes.yaml", "r"), Loader=yaml.FullLoader)
 
@@ -77,7 +73,6 @@ if resources:
             print(f"{LOG_COLOR.FAIL}FileNotFoundError: {e}{LOG_COLOR.ENDC}")
             print(
                 f"{LOG_COLOR.WARNING}Please create a directory named '{resource}' in '{CONTROLLERS_ROOT}' directory.{LOG_COLOR.ENDC}")
-
 
 # print paths as table
 print(f"{LOG_COLOR.OK_CYAN}{'Path':<20}{'Controller':<20}{'Allowed Methods'}{LOG_COLOR.ENDC}")

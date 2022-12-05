@@ -1,0 +1,7 @@
+provider: sqlite
+filename: db.sqlite3
+
+# user: root
+# password: root
+# host: localhost
+# port: 3306

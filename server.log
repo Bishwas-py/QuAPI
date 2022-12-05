@@ -447,3 +447,137 @@
 2022-12-01 21:42:01,522 [INFO] Visit http://localhost:8000/
 2022-12-01 21:42:03,412 [INFO] [GET] Request: /post/index
 2022-12-01 21:42:07,384 [INFO] [GET] Request: /
+2022-12-01 21:42:49,729 [INFO] Serving on port 8000...
+2022-12-01 21:42:49,729 [INFO] Press Ctrl+C to stop.
+2022-12-01 21:42:49,729 [INFO] Visit http://localhost:8000/
+2022-12-01 21:42:51,282 [INFO] [GET] Request: /
+2022-12-01 21:42:56,029 [INFO] [GET] Request: /post/index
+2022-12-01 21:43:21,684 [INFO] Serving on port 8000...
+2022-12-01 21:43:21,684 [INFO] Press Ctrl+C to stop.
+2022-12-01 21:43:21,684 [INFO] Visit http://localhost:8000/
+2022-12-01 21:43:23,143 [INFO] [GET] Request: /post/index
+2022-12-01 21:43:42,064 [INFO] Serving on port 8000...
+2022-12-01 21:43:42,064 [INFO] Press Ctrl+C to stop.
+2022-12-01 21:43:42,064 [INFO] Visit http://localhost:8000/
+2022-12-01 21:43:49,276 [INFO] [VIEW] Request: /post/index
+2022-12-01 21:43:59,899 [INFO] Serving on port 8000...
+2022-12-01 21:43:59,899 [INFO] Press Ctrl+C to stop.
+2022-12-01 21:43:59,899 [INFO] Visit http://localhost:8000/
+2022-12-01 21:44:20,994 [INFO] Serving on port 8000...
+2022-12-01 21:44:20,994 [INFO] Press Ctrl+C to stop.
+2022-12-01 21:44:20,994 [INFO] Visit http://localhost:8000/
+2022-12-01 21:44:24,316 [INFO] [VIEW] Request: /post/index
+2022-12-01 21:44:24,325 [ERROR] The method VIEW does not exist.
+2022-12-01 21:44:48,104 [INFO] Serving on port 8000...
+2022-12-01 21:44:48,104 [INFO] Press Ctrl+C to stop.
+2022-12-01 21:44:48,104 [INFO] Visit http://localhost:8000/
+2022-12-01 21:56:43,820 [INFO] [GET] Request: /
+2022-12-01 22:22:05,887 [INFO] Serving on port 8000...
+2022-12-01 22:22:05,887 [INFO] Press Ctrl+C to stop.
+2022-12-01 22:22:05,887 [INFO] Visit http://localhost:8000/
+2022-12-01 22:22:08,264 [INFO] [GET] Request: /
+2022-12-01 22:22:08,295 [INFO] [GET] Request: /
+2022-12-01 22:27:58,379 [INFO] Serving on port 8000...
+2022-12-01 22:27:58,379 [INFO] Press Ctrl+C to stop.
+2022-12-01 22:27:58,379 [INFO] Visit http://localhost:8000/
+2022-12-01 22:28:11,847 [INFO] [GET] Request: /post/index
+2022-12-01 22:28:49,082 [INFO] Serving on port 8000...
+2022-12-01 22:28:49,082 [INFO] Press Ctrl+C to stop.
+2022-12-01 22:28:49,082 [INFO] Visit http://localhost:8000/
+2022-12-01 22:28:50,145 [INFO] [GET] Request: /post/index
+2022-12-01 22:28:50,821 [INFO] [GET] Request: /post/index
+2022-12-01 22:28:51,487 [INFO] [GET] Request: /post/index
+2022-12-01 22:29:23,060 [INFO] Serving on port 8000...
+2022-12-01 22:29:23,061 [INFO] Press Ctrl+C to stop.
+2022-12-01 22:29:23,061 [INFO] Visit http://localhost:8000/
+2022-12-01 22:29:25,405 [INFO] [GET] Request: /post/index
+2022-12-01 22:29:29,284 [INFO] [GET] Request: /
+2022-12-01 22:29:31,535 [INFO] [GET] Request: /
+2022-12-01 22:29:37,376 [INFO] [GET] Request: /
+2022-12-01 22:29:37,378 [INFO] [GET] Request: /post/index
+2022-12-01 22:29:45,507 [INFO] [GET] Request: /
+2022-12-01 22:29:45,510 [INFO] [GET] Request: /post/index
+2022-12-01 22:29:53,316 [INFO] [GET] Request: /
+2022-12-01 22:29:55,689 [INFO] [GET] Request: /
+2022-12-01 22:29:55,691 [INFO] [GET] Request: /post/index
+2022-12-01 22:30:29,825 [INFO] [GET] Request: /
+2022-12-01 22:30:29,827 [INFO] [GET] Request: /post/index
+2022-12-01 22:30:29,828 [INFO] [GET] Request: /
+2022-12-01 22:30:29,829 [INFO] [GET] Request: /
+2022-12-01 22:30:38,414 [INFO] [GET] Request: /
+2022-12-01 22:30:38,414 [INFO] [GET] Request: /
+2022-12-01 22:30:45,206 [INFO] Serving on port 8000...
+2022-12-01 22:30:45,206 [INFO] Press Ctrl+C to stop.
+2022-12-01 22:30:45,206 [INFO] Visit http://localhost:8000/
+2022-12-01 22:30:46,064 [INFO] [GET] Request: /
+2022-12-01 22:30:47,676 [INFO] [GET] Request: /
+2022-12-01 22:30:48,205 [INFO] [GET] Request: /
+2022-12-01 22:30:48,838 [INFO] [GET] Request: /
+2022-12-01 22:30:49,591 [INFO] [GET] Request: /
+2022-12-01 22:30:49,936 [INFO] [GET] Request: /
+2022-12-01 22:30:50,140 [INFO] [GET] Request: /
+2022-12-01 22:30:50,352 [INFO] [GET] Request: /
+2022-12-01 22:30:50,552 [INFO] [GET] Request: /
+2022-12-01 22:30:51,985 [INFO] [GET] Request: /
+2022-12-01 22:30:55,165 [INFO] [GET] Request: /post/index
+2022-12-01 22:30:56,815 [INFO] [GET] Request: /post/index
+2022-12-01 22:30:57,880 [INFO] [GET] Request: /post/index
+2022-12-01 22:30:58,713 [INFO] [GET] Request: /post/index
+2022-12-01 22:30:59,464 [INFO] [GET] Request: /post/index
+2022-12-01 22:31:00,794 [INFO] [GET] Request: /post/index
+2022-12-01 22:31:03,912 [INFO] [GET] Request: /
+2022-12-01 22:31:27,642 [INFO] Serving on port 8000...
+2022-12-01 22:31:27,642 [INFO] Press Ctrl+C to stop.
+2022-12-01 22:31:27,642 [INFO] Visit http://localhost:8000/
+2022-12-01 22:31:30,116 [INFO] [GET] Request: /post/index
+2022-12-01 22:31:31,767 [INFO] [GET] Request: /
+2022-12-01 22:32:35,191 [INFO] Serving on port 8000...
+2022-12-01 22:32:35,191 [INFO] Press Ctrl+C to stop.
+2022-12-01 22:32:35,191 [INFO] Visit http://localhost:8000/
+2022-12-01 22:32:38,047 [INFO] [GET] Request: /
+2022-12-01 22:34:17,296 [INFO] [GET] Request: /post/index
+2022-12-01 22:34:47,282 [INFO] [GET] Request: /
+2022-12-01 22:34:53,885 [INFO] [GET] Request: /
+2022-12-01 22:34:53,887 [INFO] [GET] Request: /post/index
+2022-12-04 14:13:40,558 [INFO] Serving on port 8000...
+2022-12-04 14:13:40,558 [INFO] Press Ctrl+C to stop.
+2022-12-04 14:13:40,559 [INFO] Visit http://localhost:8000/
+2022-12-04 14:14:31,145 [INFO] [GET] Request: /
+2022-12-04 14:14:31,316 [INFO] [GET] Request: /favicon.ico
+2022-12-04 14:16:24,496 [INFO] [POST] Request: /
+2022-12-04 14:16:29,494 [INFO] Serving on port 8000...
+2022-12-04 14:16:29,494 [INFO] Press Ctrl+C to stop.
+2022-12-04 14:16:29,494 [INFO] Visit http://localhost:8000/
+2022-12-04 14:16:34,388 [INFO] [POST] Request: /
+2022-12-04 14:16:49,053 [INFO] Serving on port 8000...
+2022-12-04 14:16:49,053 [INFO] Press Ctrl+C to stop.
+2022-12-04 14:16:49,053 [INFO] Visit http://localhost:8000/
+2022-12-04 14:16:52,013 [INFO] [POST] Request: /
+2022-12-04 14:16:56,916 [INFO] [GET] Request: /
+2022-12-04 14:17:04,649 [INFO] [GET] Request: /home/home
+2022-12-04 14:17:08,518 [INFO] [POST] Request: /home/home
+2022-12-04 14:17:34,723 [INFO] [GET] Request: /post/index
+2022-12-04 14:17:34,867 [INFO] [GET] Request: /favicon.ico
+2022-12-05 17:33:39,000 [INFO] Serving on port 8000...
+2022-12-05 17:33:39,001 [INFO] Press Ctrl+C to stop.
+2022-12-05 17:33:39,001 [INFO] Visit http://localhost:8000/
+2022-12-05 17:33:41,418 [INFO] [GET] Request: /
+2022-12-05 17:33:41,482 [INFO] [GET] Request: /
+2022-12-05 17:33:41,725 [INFO] [GET] Request: /favicon.ico
+2022-12-05 17:33:41,728 [INFO] [GET] Request: /favicon.ico
+2022-12-05 17:33:49,793 [INFO] [GET] Request: /
+2022-12-05 17:34:52,995 [INFO] [POST] Request: /home/home
+2022-12-05 17:34:57,109 [INFO] [GET] Request: /home/home
+2022-12-05 17:34:59,212 [INFO] [GET] Request: /
+2022-12-05 17:34:59,333 [INFO] [GET] Request: /favicon.ico
+2022-12-05 17:35:05,243 [INFO] [GET] Request: /home/home
+2022-12-05 17:35:05,349 [INFO] [GET] Request: /favicon.ico
+2022-12-05 17:35:10,885 [INFO] [POST] Request: /home/home
+2022-12-05 18:11:40,814 [INFO] Serving on port 8000...
+2022-12-05 18:11:40,814 [INFO] Press Ctrl+C to stop.
+2022-12-05 18:11:40,814 [INFO] Visit http://localhost:8000/
+2022-12-05 18:14:28,912 [INFO] Serving on port 8000...
+2022-12-05 18:14:28,912 [INFO] Press Ctrl+C to stop.
+2022-12-05 18:14:28,912 [INFO] Visit http://localhost:8000/
+2022-12-05 18:14:36,671 [INFO] [GET] Request: /
+2022-12-05 18:14:36,775 [INFO] [GET] Request: /favicon.ico
