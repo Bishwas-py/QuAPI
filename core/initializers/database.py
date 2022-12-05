@@ -18,8 +18,14 @@ if os.path.exists(CURRENT_DIR / "db.yaml"):
             db.bind(provider=dev_db.get("provider"), filename=dev_db.get("filename"))
             orm.set_sql_debug(True)
         else:
-            print("Development database not found in db.yaml")
+            logging.warning("No development database found in db.yaml")
     elif ENV == "production":
         prod_db = db_config.get("production")
-        db = orm.Database()
-        db.bind(**prod_db)
+        if prod_db:
+            db = orm.Database()
+            db.bind(**prod_db)
+        else:
+            logging.warning("No production database found in db.yaml")
+
+else:
+    logging.warning("No db.yaml found, skipping database initialization")

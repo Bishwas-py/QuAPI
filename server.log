@@ -581,3 +581,14 @@
 2022-12-05 18:14:28,912 [INFO] Visit http://localhost:8000/
 2022-12-05 18:14:36,671 [INFO] [GET] Request: /
 2022-12-05 18:14:36,775 [INFO] [GET] Request: /favicon.ico
+2022-12-05 18:15:36,957 [WARNING] No development database found in db.yaml
+2022-12-05 18:15:36,995 [INFO] Serving on port 8000...
+2022-12-05 18:15:36,995 [INFO] Press Ctrl+C to stop.
+2022-12-05 18:15:36,995 [INFO] Visit http://localhost:8000/
+2022-12-05 18:15:59,228 [INFO] Serving on port 8000...
+2022-12-05 18:15:59,229 [INFO] Press Ctrl+C to stop.
+2022-12-05 18:15:59,229 [INFO] Visit http://localhost:8000/
+2022-12-05 18:16:16,078 [WARNING] No db.yaml found, skipping database initialization
+2022-12-05 18:16:16,108 [INFO] Serving on port 8000...
+2022-12-05 18:16:16,108 [INFO] Press Ctrl+C to stop.
+2022-12-05 18:16:16,108 [INFO] Visit http://localhost:8000/
