@@ -1,13 +1,12 @@
-root: home.home # this path can't be overridden
 resources:
   - home
   - post
 tweaks:
   controller:
     home.home:
-      path: / # this path is primary
+      path: /happy/ # this path is primary
       allowed_methods: [ GET ]
-
+      unique: true
   path:
     /favicon.ico: # this path is secondary
       controller: home.home

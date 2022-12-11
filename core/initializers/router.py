@@ -9,7 +9,6 @@ import yaml
 
 from ..constants import CONTROLLERS_ROOT, LOG_COLOR
 
-
 paths = {}
 
 CURRENT_DIR = pathlib.Path(os.getcwd())
@@ -54,6 +53,7 @@ for key, value in path_tweaks.items():
 if resources:
     for resource in resources:
         try:
+            # check if the controller exists
             excluded_directories = {"__pycache__", "templates", "__init__.py"}
             controllers_dir = [x for x in os.listdir(os.path.join(CONTROLLERS_ROOT, resource)) if
                                x not in excluded_directories]
@@ -61,6 +61,12 @@ if resources:
             for controller_file in controllers_dir:
                 no_extension_controller_file_name = re.sub(r'\.py$', '', controller_file)
                 controller_name = f"{resource}.{no_extension_controller_file_name}"
+
+                # check if controller_name is in tweaks.controller, and unique path is set, if so, don't add it
+                if controller_name in controller_tweaks:
+                    if controller_tweaks.get(controller_name).get("unique"):
+                        continue
+
                 path = f"/{resource}/{no_extension_controller_file_name}"
                 paths.update(
                     {

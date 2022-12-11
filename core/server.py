@@ -2,6 +2,7 @@ import importlib
 import json
 import logging
 
+from core.constants import ENV
 from essentials import Request
 from core.initializers.router import paths
 
@@ -34,9 +35,13 @@ def render_api(environ):
         # now, we need to get the controller name
         # the controller name is the name of the controller file; for /home it's home/index.py
         # it doesn't use .get() because we want to raise an error if the path doesn't exist; aggressive
+        print(paths)
+        print(request.path)
         controller_name = paths[request.path]['controller_name']
     except KeyError:
-        return f"404 Not Found [{request.path}]. Make sure you have a controllerfor this path" \
+        if ENV == "production":
+            return "404 Not Found", "404 Not Found"
+        return f"404 Not Found [{request.path}]. Make sure you have a controller for this path" \
                f" and you have resourced it to routes.yaml""", "404 Not Found"
 
     if type(request.method) is not str:

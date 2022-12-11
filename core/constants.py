@@ -1,5 +1,8 @@
 # rigids.py is basically the list of all constants
+import os
+
 CONTROLLERS_ROOT = "controllers"
+ENV = os.environ.get("ENV", "development")
 
 
 class LOG_COLOR:
