@@ -1,15 +1,4 @@
-from pony.orm import commit
-
+from core.essentials import STATUS
 
 def get(request):
-    return {
-        'name': 'Job the wealthy'
-    }
-
-
-def post(request):
-    user_agent = request.user_agent()
-
-    return {
-        'user_agent': user_agent
-    }
+    return ["HELLO"], STATUS.BAD_REQUEST_400, "text/plain"
