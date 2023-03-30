@@ -1,10 +1,9 @@
 resources:
-  - home
-  - post
+  - app
 tweaks:
   controller:
     home.home:
-      path: /happy/ # this path is primary
+      path: / # this path is primary
       allowed_methods: [ GET ]
       unique: true
   path:
