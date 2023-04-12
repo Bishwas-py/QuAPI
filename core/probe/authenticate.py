@@ -1,5 +1,3 @@
-import functools
-
 from core.entities.user import User
 
 
