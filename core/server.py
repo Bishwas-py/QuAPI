@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+from __future__ import annotations
 
 import logging
 import json
@@ -41,28 +42,30 @@ def render_api(environ: dict[str, str]) -> tuple:
 
 def destruct(
     dumped_data: Any,
-    response_status=None,
-    dumped_data_content_type=None,
-    access_control_allow_origin=None,
+    response_status: int | None = None,
+    dumped_data_content_type: Any = None,
+    access_control_allow_origin: Any = None,
 ) -> tuple:
     """
-    The function takes in dumped data and other optional parameters, converts it to JSON or plain text,
-    sets the content type and length, and returns a tuple of the data and other parameters.
+    The function takes in dumped data and other optional parameters, converts the data to JSON or plain
+    text format, and returns a tuple containing the converted data, response status, content type,
+    access control origin, and content length.
 
-    :param dumped_data: The data that has been dumped and needs to be returned in the response
+    :param dumped_data: The data that needs to be returned as a response
     :type dumped_data: Any
-    :param response_status: HTTP response status code (e.g. 200, 404, 500)
+    :param response_status: HTTP response status code to be returned by the server. It is an optional
+    parameter and defaults to None
+    :type response_status: int | None
     :param dumped_data_content_type: The content type of the data that has been dumped. It can be either
-    "application/json" or "text/plain"
+    "application/json" or "text/plain". If the dumped data is a dictionary or a list, the content type
+    will be set to "application/json" by default
+    :type dumped_data_content_type: Any
     :param access_control_allow_origin: The `access_control_allow_origin` parameter is used to specify
     the domain(s) that are allowed to make cross-origin requests to the server. If this parameter is not
     provided, the default value of `*` (allowing all domains) is used
-    :return: A tuple containing the following values:
-    - dumped_data
-    - response_status
-    - dumped_data_content_type
-    - access_control_allow_origin
-    - dumped_data_content_length
+    :type access_control_allow_origin: Any
+    :return: A tuple containing the dumped data, response status, dumped data content type, access
+    control allow origin, and dumped data content length.
     """
     if isinstance(dumped_data, (dict, list)):
         dumped_data = json.dumps(dumped_data)
