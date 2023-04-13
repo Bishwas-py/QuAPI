@@ -6,3 +6,4 @@ Pipfile*
 controllers/*
 controllers/!home/*
 server.log
+db.sqlite3
