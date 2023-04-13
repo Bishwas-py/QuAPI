@@ -2,4 +2,7 @@ venv/
 .idea/
 __pycache__/
 server.log
-Pipfile
+Pipfile*
+controllers/*
+controllers/!home/*
+server.log

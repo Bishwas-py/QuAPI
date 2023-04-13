@@ -1,11 +1,13 @@
 resources:
   - app
+  - hello
 tweaks:
   controller:
     home.home:
       path: / # this path is primary
-      allowed_methods: [ GET ]
+      allowed_methods: [GET]
       unique: true
   path:
     /favicon.ico: # this path is secondary
       controller: home.home
+      allowed_methods: [GET]

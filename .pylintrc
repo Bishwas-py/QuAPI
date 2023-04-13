@@ -101,6 +101,9 @@ disable=
     missing-docstring,
     protected-access,
     too-few-public-methods,
+    W1202,
+    consider-using-f-string,
+    logging-fstring-interpolation,
     # handled by black
     format,
     # We anticipate #3512 where it will become optional
@@ -142,7 +145,7 @@ logging-modules=logging
 
 # The type of string formatting that logging methods do. `old` means using %
 # formatting, `new` is for `{}` formatting.
-logging-format-style=old
+logging-format-style=new
 
 
 [MISCELLANEOUS]

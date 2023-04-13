@@ -1,11 +1,10 @@
-# This is a Python script that serves as a router for a web application. It reads the routes from a
-# YAML file, configures the routes, and maps them to the correct controller. It also allows for custom
-# paths and specific allowed methods to be set without having to specify them in the YAML file.
-
-# Finally, it prints out a table of the paths and their corresponding controllers and allowed methods.
-# router.py is basically the router that handles all the requests and routes them to the correct controller.
-# it configures the routes from routes.yaml and then it uses the controller name to import the controller and
-# call the correct method (get, post, put, delete, etc.)
+# This code is responsible for parsing a `routes.yaml` file and generating a dictionary of paths and
+# their corresponding controllers and allowed methods. It first opens the `routes.yaml` file and loads
+# its contents into a Python dictionary using the `yaml.load()` method. It then iterates through the
+# dictionary and adds paths to the `paths` dictionary based on the values of certain keys. It also
+# checks for custom paths and controllers specified in the `tweaks` dictionary and adds them to the
+# `paths` dictionary. Finally, it prints out a table of the paths and their corresponding controllers
+# and allowed methods.
 
 import os
 import pathlib
@@ -34,6 +33,10 @@ tweaks = routes.get("tweaks")
 controller_tweaks = tweaks.get("controller")
 path_tweaks = tweaks.get("path")
 
+# This code block is iterating through the items in the `controller_tweaks` dictionary. For each
+# key-value pair, it checks if the type of the value is a string. If it is, it adds a new path to the
+# `paths` dictionary with the key `f"/{value}"` and the value `{"controller_name": key}`. This is used
+# to create a custom path for a controller without having to specify a path in the `routes.yaml` file.
 for key, value in controller_tweaks.items():
     # This code block checks if the type of `value` is a string. If it is, it adds a new path to the
     # `paths` dictionary with the key `f"/{value}"` and the value `{"controller_name": key}`. This is
