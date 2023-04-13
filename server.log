@@ -875,3 +875,469 @@
 2022-12-11 13:45:41,115 [INFO] Press Ctrl+C to stop.
 2022-12-11 13:45:41,115 [INFO] Visit http://localhost:8000/
 2022-12-11 13:45:42,832 [INFO] [GET] Request: /happy/
+2022-12-11 13:48:34,363 [INFO] Serving on port 8000...
+2022-12-11 13:48:34,363 [INFO] Press Ctrl+C to stop.
+2022-12-11 13:48:34,363 [INFO] Visit http://localhost:8000/
+2022-12-11 13:48:35,348 [INFO] [GET] Request: /happy/
+2022-12-11 13:48:45,689 [INFO] [GET] Request: /home/home
+2022-12-11 13:53:53,597 [INFO] Serving on port 8000...
+2022-12-11 13:53:53,597 [INFO] Press Ctrl+C to stop.
+2022-12-11 13:53:53,597 [INFO] Visit http://localhost:8000/
+2022-12-11 13:55:10,797 [INFO] Serving on port 8000...
+2022-12-11 13:55:10,797 [INFO] Press Ctrl+C to stop.
+2022-12-11 13:55:10,797 [INFO] Visit http://localhost:8000/
+2022-12-11 13:55:14,326 [INFO] [GET] Request: /happy/
+2022-12-11 13:55:20,150 [INFO] [GET] Request: /favicon.ico
+2022-12-11 13:55:20,150 [ERROR] Controller error_handler.not_found not found.
+2022-12-11 13:55:34,466 [INFO] Serving on port 8000...
+2022-12-11 13:55:34,466 [INFO] Press Ctrl+C to stop.
+2022-12-11 13:55:34,466 [INFO] Visit http://localhost:8000/
+2022-12-11 13:55:35,566 [INFO] [GET] Request: /favicon.ico
+2022-12-11 13:55:35,566 [ERROR] Controller error_handler.not_found not found.
+2022-12-11 13:56:00,032 [INFO] Serving on port 8000...
+2022-12-11 13:56:00,032 [INFO] Press Ctrl+C to stop.
+2022-12-11 13:56:00,032 [INFO] Visit http://localhost:8000/
+2022-12-11 13:56:05,363 [INFO] [GET] Request: /favicon.ico
+2022-12-11 13:56:05,365 [ERROR] Controller error_handler.not_found not found.
+2022-12-11 13:56:25,029 [INFO] Serving on port 8000...
+2022-12-11 13:56:25,029 [INFO] Press Ctrl+C to stop.
+2022-12-11 13:56:25,029 [INFO] Visit http://localhost:8000/
+2022-12-11 13:56:26,056 [INFO] [GET] Request: /favicon.ico
+2022-12-11 13:56:26,057 [ERROR] Controller error_handler.not_found not found.
+2022-12-11 13:56:31,608 [INFO] Serving on port 8000...
+2022-12-11 13:56:31,608 [INFO] Press Ctrl+C to stop.
+2022-12-11 13:56:31,608 [INFO] Visit http://localhost:8000/
+2022-12-11 13:56:49,934 [INFO] Serving on port 8000...
+2022-12-11 13:56:49,934 [INFO] Press Ctrl+C to stop.
+2022-12-11 13:56:49,934 [INFO] Visit http://localhost:8000/
+2022-12-11 13:56:52,151 [INFO] [GET] Request: /favicon.ico
+2022-12-11 13:57:00,056 [INFO] Serving on port 8000...
+2022-12-11 13:57:00,056 [INFO] Press Ctrl+C to stop.
+2022-12-11 13:57:00,056 [INFO] Visit http://localhost:8000/
+2022-12-11 13:57:02,647 [INFO] [GET] Request: /favicon.ico
+2022-12-11 13:57:09,365 [INFO] Serving on port 8000...
+2022-12-11 13:57:09,365 [INFO] Press Ctrl+C to stop.
+2022-12-11 13:57:09,365 [INFO] Visit http://localhost:8000/
+2022-12-11 13:57:10,855 [INFO] [GET] Request: /favicon.ico
+2022-12-11 13:57:22,087 [INFO] Serving on port 8000...
+2022-12-11 13:57:22,088 [INFO] Press Ctrl+C to stop.
+2022-12-11 13:57:22,088 [INFO] Visit http://localhost:8000/
+2022-12-11 13:57:22,949 [INFO] [GET] Request: /favicon.ico
+2022-12-11 14:00:47,914 [INFO] [GET] Request: /favicon.ico
+2022-12-11 14:07:00,728 [INFO] Serving on port 8000...
+2022-12-11 14:07:00,728 [INFO] Press Ctrl+C to stop.
+2022-12-11 14:07:00,729 [INFO] Visit http://localhost:8000/
+2022-12-11 14:07:02,200 [INFO] [GET] Request: /favicon.ico
+2022-12-11 14:07:06,747 [INFO] [GET] Request: /happy/
+2022-12-11 14:07:11,862 [INFO] Serving on port 8000...
+2022-12-11 14:07:11,863 [INFO] Press Ctrl+C to stop.
+2022-12-11 14:07:11,863 [INFO] Visit http://localhost:8000/
+2022-12-11 14:08:21,902 [INFO] Serving on port 8000...
+2022-12-11 14:08:21,902 [INFO] Press Ctrl+C to stop.
+2022-12-11 14:08:21,902 [INFO] Visit http://localhost:8000/
+2022-12-11 14:08:29,061 [INFO] [GET] Request: /favicon.ico
+2022-12-11 14:08:30,102 [INFO] [GET] Request: /favicon.ico
+2022-12-11 14:08:44,963 [INFO] Serving on port 8000...
+2022-12-11 14:08:44,963 [INFO] Press Ctrl+C to stop.
+2022-12-11 14:08:44,964 [INFO] Visit http://localhost:8000/
+2022-12-11 14:08:55,596 [INFO] Serving on port 8000...
+2022-12-11 14:08:55,596 [INFO] Press Ctrl+C to stop.
+2022-12-11 14:08:55,596 [INFO] Visit http://localhost:8000/
+2022-12-11 14:08:56,696 [INFO] [GET] Request: /favicon.ico
+2022-12-11 14:09:05,347 [INFO] Serving on port 8000...
+2022-12-11 14:09:05,347 [INFO] Press Ctrl+C to stop.
+2022-12-11 14:09:05,347 [INFO] Visit http://localhost:8000/
+2022-12-11 14:09:06,497 [INFO] [GET] Request: /favicon.ico
+2022-12-11 14:09:22,200 [INFO] Serving on port 8000...
+2022-12-11 14:09:22,200 [INFO] Press Ctrl+C to stop.
+2022-12-11 14:09:22,201 [INFO] Visit http://localhost:8000/
+2022-12-11 14:09:23,405 [INFO] [GET] Request: /favicon.ico
+2022-12-11 14:10:04,587 [INFO] Serving on port 8000...
+2022-12-11 14:10:04,587 [INFO] Press Ctrl+C to stop.
+2022-12-11 14:10:04,587 [INFO] Visit http://localhost:8000/
+2022-12-11 14:11:03,009 [INFO] Serving on port 8000...
+2022-12-11 14:11:03,010 [INFO] Press Ctrl+C to stop.
+2022-12-11 14:11:03,010 [INFO] Visit http://localhost:8000/
+2022-12-11 14:11:15,083 [INFO] Serving on port 8000...
+2022-12-11 14:11:15,083 [INFO] Press Ctrl+C to stop.
+2022-12-11 14:11:15,083 [INFO] Visit http://localhost:8000/
+2022-12-11 14:11:46,371 [INFO] Serving on port 8000...
+2022-12-11 14:11:46,371 [INFO] Press Ctrl+C to stop.
+2022-12-11 14:11:46,371 [INFO] Visit http://localhost:8000/
+2022-12-11 14:12:10,529 [INFO] [GET] Request: /favicon.ico
+2022-12-11 14:12:13,240 [INFO] [GET] Request: /favicon.ico
+2022-12-11 14:13:01,053 [INFO] Serving on port 8000...
+2022-12-11 14:13:01,053 [INFO] Press Ctrl+C to stop.
+2022-12-11 14:13:01,053 [INFO] Visit http://localhost:8000/
+2022-12-11 14:13:04,933 [INFO] [GET] Request: /favicon.ico
+2022-12-11 14:13:21,058 [INFO] Serving on port 8000...
+2022-12-11 14:13:21,058 [INFO] Press Ctrl+C to stop.
+2022-12-11 14:13:21,058 [INFO] Visit http://localhost:8000/
+2022-12-11 14:13:22,226 [INFO] [GET] Request: /favicon.ico
+2022-12-11 14:13:22,842 [INFO] [GET] Request: /favicon.ico
+2022-12-11 14:13:41,382 [INFO] Serving on port 8000...
+2022-12-11 14:13:41,382 [INFO] Press Ctrl+C to stop.
+2022-12-11 14:13:41,382 [INFO] Visit http://localhost:8000/
+2022-12-11 14:13:42,485 [INFO] [GET] Request: /favicon.ico
+2022-12-11 14:14:00,741 [INFO] Serving on port 8000...
+2022-12-11 14:14:00,741 [INFO] Press Ctrl+C to stop.
+2022-12-11 14:14:00,741 [INFO] Visit http://localhost:8000/
+2022-12-11 14:14:01,740 [INFO] [GET] Request: /favicon.ico
+2022-12-11 14:14:18,443 [INFO] Serving on port 8000...
+2022-12-11 14:14:18,443 [INFO] Press Ctrl+C to stop.
+2022-12-11 14:14:18,443 [INFO] Visit http://localhost:8000/
+2022-12-11 14:14:19,748 [INFO] [GET] Request: /favicon.ico
+2022-12-11 14:14:28,035 [INFO] Serving on port 8000...
+2022-12-11 14:14:28,035 [INFO] Press Ctrl+C to stop.
+2022-12-11 14:14:28,035 [INFO] Visit http://localhost:8000/
+2022-12-11 14:14:29,134 [INFO] [GET] Request: /favicon.ico
+2022-12-11 14:15:16,221 [INFO] Serving on port 8000...
+2022-12-11 14:15:16,221 [INFO] Press Ctrl+C to stop.
+2022-12-11 14:15:16,221 [INFO] Visit http://localhost:8000/
+2022-12-11 14:15:17,419 [INFO] [GET] Request: /favicon.ico
+2022-12-11 14:15:28,032 [INFO] Serving on port 8000...
+2022-12-11 14:15:28,033 [INFO] Press Ctrl+C to stop.
+2022-12-11 14:15:28,033 [INFO] Visit http://localhost:8000/
+2022-12-11 14:15:30,062 [INFO] [GET] Request: /favicon.ico
+2022-12-11 14:15:42,949 [INFO] Serving on port 8000...
+2022-12-11 14:15:42,949 [INFO] Press Ctrl+C to stop.
+2022-12-11 14:15:42,949 [INFO] Visit http://localhost:8000/
+2022-12-11 14:15:43,732 [INFO] [GET] Request: /favicon.ico
+2022-12-11 14:16:00,792 [INFO] Serving on port 8000...
+2022-12-11 14:16:00,792 [INFO] Press Ctrl+C to stop.
+2022-12-11 14:16:00,792 [INFO] Visit http://localhost:8000/
+2022-12-11 14:16:02,490 [INFO] [GET] Request: /favicon.ico
+2022-12-11 14:16:17,489 [INFO] Serving on port 8000...
+2022-12-11 14:16:17,489 [INFO] Press Ctrl+C to stop.
+2022-12-11 14:16:17,489 [INFO] Visit http://localhost:8000/
+2022-12-11 14:16:18,707 [INFO] [GET] Request: /favicon.ico
+2022-12-11 14:16:19,299 [INFO] [GET] Request: /favicon.ico
+2022-12-11 14:16:19,464 [INFO] [GET] Request: /favicon.ico
+2022-12-11 14:16:28,838 [INFO] Serving on port 8000...
+2022-12-11 14:16:28,839 [INFO] Press Ctrl+C to stop.
+2022-12-11 14:16:28,839 [INFO] Visit http://localhost:8000/
+2022-12-11 14:16:29,649 [INFO] [GET] Request: /favicon.ico
+2022-12-11 14:16:30,257 [INFO] [GET] Request: /favicon.ico
+2022-12-11 14:16:30,420 [INFO] [GET] Request: /favicon.ico
+2022-12-11 14:16:30,613 [INFO] [GET] Request: /favicon.ico
+2022-12-11 14:16:38,408 [INFO] Serving on port 8000...
+2022-12-11 14:16:38,408 [INFO] Press Ctrl+C to stop.
+2022-12-11 14:16:38,409 [INFO] Visit http://localhost:8000/
+2022-12-11 14:16:40,244 [INFO] [GET] Request: /favicon.ico
+2022-12-11 14:16:50,592 [INFO] Serving on port 8000...
+2022-12-11 14:16:50,592 [INFO] Press Ctrl+C to stop.
+2022-12-11 14:16:50,592 [INFO] Visit http://localhost:8000/
+2022-12-11 14:16:51,772 [INFO] [GET] Request: /favicon.ico
+2022-12-11 14:17:19,897 [INFO] Serving on port 8000...
+2022-12-11 14:17:19,897 [INFO] Press Ctrl+C to stop.
+2022-12-11 14:17:19,897 [INFO] Visit http://localhost:8000/
+2022-12-11 14:17:21,133 [INFO] [GET] Request: /favicon.ico
+2022-12-11 14:17:33,184 [INFO] Serving on port 8000...
+2022-12-11 14:17:33,184 [INFO] Press Ctrl+C to stop.
+2022-12-11 14:17:33,184 [INFO] Visit http://localhost:8000/
+2022-12-11 14:17:34,334 [INFO] [GET] Request: /favicon.ico
+2022-12-11 14:17:44,849 [INFO] [GET] Request: /favicon.ico
+2022-12-11 14:17:45,958 [INFO] [GET] Request: /favicon.ico
+2022-12-11 14:17:47,760 [INFO] Serving on port 8000...
+2022-12-11 14:17:47,760 [INFO] Press Ctrl+C to stop.
+2022-12-11 14:17:47,760 [INFO] Visit http://localhost:8000/
+2022-12-11 14:17:48,535 [INFO] [GET] Request: /favicon.ico
+2022-12-11 14:19:16,794 [INFO] Serving on port 8000...
+2022-12-11 14:19:16,794 [INFO] Press Ctrl+C to stop.
+2022-12-11 14:19:16,795 [INFO] Visit http://localhost:8000/
+2022-12-11 14:19:17,883 [INFO] [GET] Request: /favicon.ico
+2022-12-11 14:19:26,906 [INFO] Serving on port 8000...
+2022-12-11 14:19:26,906 [INFO] Press Ctrl+C to stop.
+2022-12-11 14:19:26,906 [INFO] Visit http://localhost:8000/
+2022-12-11 14:19:27,800 [INFO] [GET] Request: /favicon.ico
+2022-12-11 14:19:40,197 [INFO] Serving on port 8000...
+2022-12-11 14:19:40,197 [INFO] Press Ctrl+C to stop.
+2022-12-11 14:19:40,197 [INFO] Visit http://localhost:8000/
+2022-12-11 14:19:42,270 [INFO] Serving on port 8000...
+2022-12-11 14:19:42,271 [INFO] Press Ctrl+C to stop.
+2022-12-11 14:19:42,271 [INFO] Visit http://localhost:8000/
+2022-12-11 14:19:42,856 [INFO] [GET] Request: /favicon.ico
+2022-12-11 14:19:43,421 [INFO] [GET] Request: /favicon.ico
+2022-12-11 14:19:43,575 [INFO] [GET] Request: /favicon.ico
+2022-12-11 14:19:43,742 [INFO] [GET] Request: /favicon.ico
+2022-12-11 14:19:43,921 [INFO] [GET] Request: /favicon.ico
+2022-12-11 14:19:44,057 [INFO] [GET] Request: /favicon.ico
+2022-12-11 14:22:05,807 [INFO] Serving on port 8000...
+2022-12-11 14:22:05,807 [INFO] Press Ctrl+C to stop.
+2022-12-11 14:22:05,807 [INFO] Visit http://localhost:8000/
+2022-12-11 14:22:08,405 [INFO] [GET] Request: /favicon.ico
+2022-12-11 14:23:38,646 [INFO] [GET] Request: /favicon.ico
+2022-12-11 16:43:36,723 [INFO] Serving on port 8000...
+2022-12-11 16:43:36,723 [INFO] Press Ctrl+C to stop.
+2022-12-11 16:43:36,723 [INFO] Visit http://localhost:8000/
+2022-12-11 16:43:48,674 [INFO] [GET] Request: /favicon.ico
+2022-12-11 16:43:50,907 [INFO] [GET] Request: /happy/
+2022-12-11 16:44:08,561 [INFO] [GET] Request: /home/home
+2022-12-11 16:44:23,624 [INFO] Serving on port 8000...
+2022-12-11 16:44:23,624 [INFO] Press Ctrl+C to stop.
+2022-12-11 16:44:23,624 [INFO] Visit http://localhost:8000/
+2022-12-11 16:45:30,797 [INFO] Serving on port 8000...
+2022-12-11 16:45:30,797 [INFO] Press Ctrl+C to stop.
+2022-12-11 16:45:30,797 [INFO] Visit http://localhost:8000/
+2022-12-11 16:45:32,566 [INFO] [GET] Request: /happy/
+2022-12-11 16:45:35,894 [INFO] [GET] Request: /happy/
+2022-12-11 16:45:37,101 [INFO] [GET] Request: /happy/
+2022-12-11 16:45:45,811 [INFO] [GET] Request: /happy/
+2022-12-11 16:46:46,110 [INFO] Serving on port 8000...
+2022-12-11 16:46:46,110 [INFO] Press Ctrl+C to stop.
+2022-12-11 16:46:46,110 [INFO] Visit http://localhost:8000/
+2022-12-11 16:47:13,296 [INFO] Serving on port 8000...
+2022-12-11 16:47:13,296 [INFO] Press Ctrl+C to stop.
+2022-12-11 16:47:13,296 [INFO] Visit http://localhost:8000/
+2022-12-11 16:47:15,729 [INFO] [GET] Request: /nep/al
+2022-12-11 16:47:30,497 [INFO] [GET] Request: /nep/al
+2022-12-11 16:47:39,303 [INFO] Serving on port 8000...
+2022-12-11 16:47:39,303 [INFO] Press Ctrl+C to stop.
+2022-12-11 16:47:39,303 [INFO] Visit http://localhost:8000/
+2022-12-11 16:47:40,472 [INFO] [GET] Request: /nep/al
+2022-12-11 16:48:14,986 [INFO] Serving on port 8000...
+2022-12-11 16:48:14,987 [INFO] Press Ctrl+C to stop.
+2022-12-11 16:48:14,987 [INFO] Visit http://localhost:8000/
+2022-12-11 16:48:16,183 [INFO] [GET] Request: /nep/al
+2022-12-11 16:48:30,932 [INFO] Serving on port 8000...
+2022-12-11 16:48:30,932 [INFO] Press Ctrl+C to stop.
+2022-12-11 16:48:30,932 [INFO] Visit http://localhost:8000/
+2022-12-11 16:48:32,038 [INFO] [GET] Request: /nep/al
+2022-12-11 16:49:05,648 [INFO] Serving on port 8000...
+2022-12-11 16:49:05,648 [INFO] Press Ctrl+C to stop.
+2022-12-11 16:49:05,649 [INFO] Visit http://localhost:8000/
+2022-12-11 16:49:06,924 [INFO] [GET] Request: /nep/al
+2022-12-11 16:49:21,339 [INFO] Serving on port 8000...
+2022-12-11 16:49:21,339 [INFO] Press Ctrl+C to stop.
+2022-12-11 16:49:21,339 [INFO] Visit http://localhost:8000/
+2022-12-11 16:49:22,483 [INFO] [GET] Request: /nep/al
+2022-12-11 16:49:33,049 [INFO] Serving on port 8000...
+2022-12-11 16:49:33,049 [INFO] Press Ctrl+C to stop.
+2022-12-11 16:49:33,049 [INFO] Visit http://localhost:8000/
+2022-12-11 16:49:33,965 [INFO] [GET] Request: /nep/al
+2022-12-11 16:49:53,917 [INFO] Serving on port 8000...
+2022-12-11 16:49:53,917 [INFO] Press Ctrl+C to stop.
+2022-12-11 16:49:53,917 [INFO] Visit http://localhost:8000/
+2022-12-11 16:49:57,744 [INFO] [GET] Request: /nep/al
+2022-12-11 16:50:30,220 [INFO] Serving on port 8000...
+2022-12-11 16:50:30,220 [INFO] Press Ctrl+C to stop.
+2022-12-11 16:50:30,220 [INFO] Visit http://localhost:8000/
+2022-12-11 16:50:31,384 [INFO] [GET] Request: /nep/al
+2022-12-11 16:52:12,259 [INFO] Serving on port 8000...
+2022-12-11 16:52:12,259 [INFO] Press Ctrl+C to stop.
+2022-12-11 16:52:12,259 [INFO] Visit http://localhost:8000/
+2022-12-11 16:52:15,532 [INFO] [GET] Request: /
+2023-04-13 13:14:57,639 [INFO] Serving on port 8000...
+2023-04-13 13:14:57,640 [INFO] Press Ctrl+C to stop.
+2023-04-13 13:14:57,640 [INFO] Visit http://localhost:8000/
+2023-04-13 13:15:06,742 [INFO] [GET] Request: /
+2023-04-13 13:15:06,744 [ERROR] Controller nep.al not found.
+2023-04-13 13:15:07,032 [INFO] [GET] Request: /favicon.ico
+2023-04-13 13:15:07,033 [ERROR] Controller error_handler.not_found not found.
+2023-04-13 13:15:44,369 [INFO] Serving on port 8000...
+2023-04-13 13:15:44,369 [INFO] Press Ctrl+C to stop.
+2023-04-13 13:15:44,369 [INFO] Visit http://localhost:8000/
+2023-04-13 13:15:51,596 [INFO] [GET] Request: /happy/
+2023-04-13 13:17:01,299 [INFO] Serving on port 8000...
+2023-04-13 13:17:01,299 [INFO] Press Ctrl+C to stop.
+2023-04-13 13:17:01,299 [INFO] Visit http://localhost:8000/
+2023-04-13 13:17:03,503 [INFO] [GET] Request: /happy/
+2023-04-13 13:17:08,457 [INFO] [POST] Request: /happy/
+2023-04-13 13:17:28,371 [INFO] Serving on port 8000...
+2023-04-13 13:17:28,372 [INFO] Press Ctrl+C to stop.
+2023-04-13 13:17:28,372 [INFO] Visit http://localhost:8000/
+2023-04-13 13:17:31,433 [INFO] [POST] Request: /happy/
+2023-04-13 13:17:39,972 [INFO] Serving on port 8000...
+2023-04-13 13:17:39,972 [INFO] Press Ctrl+C to stop.
+2023-04-13 13:17:39,972 [INFO] Visit http://localhost:8000/
+2023-04-13 13:17:41,967 [INFO] [POST] Request: /happy/
+2023-04-13 13:18:44,177 [INFO] Serving on port 8000...
+2023-04-13 13:18:44,177 [INFO] Press Ctrl+C to stop.
+2023-04-13 13:18:44,177 [INFO] Visit http://localhost:8000/
+2023-04-13 13:19:05,362 [INFO] [POST] Request: /nep/quick
+2023-04-13 13:19:05,370 [ERROR] Method POST not found in nep.quick
+2023-04-13 13:19:41,730 [INFO] [GET] Request: /nep/quick
+2023-04-13 13:20:28,530 [INFO] Serving on port 8000...
+2023-04-13 13:20:28,530 [INFO] Press Ctrl+C to stop.
+2023-04-13 13:20:28,530 [INFO] Visit http://localhost:8000/
+2023-04-13 13:20:30,568 [INFO] [GET] Request: /nep/quick
+2023-04-13 13:21:34,858 [INFO] Serving on port 8000...
+2023-04-13 13:21:34,858 [INFO] Press Ctrl+C to stop.
+2023-04-13 13:21:34,858 [INFO] Visit http://localhost:8000/
+2023-04-13 13:21:37,285 [INFO] [GET] Request: /nep/quick
+2023-04-13 13:22:06,802 [INFO] Serving on port 8000...
+2023-04-13 13:22:06,802 [INFO] Press Ctrl+C to stop.
+2023-04-13 13:22:06,802 [INFO] Visit http://localhost:8000/
+2023-04-13 13:22:09,012 [INFO] [GET] Request: /nep/quick
+2023-04-13 13:23:11,276 [INFO] Serving on port 8000...
+2023-04-13 13:23:11,277 [INFO] Press Ctrl+C to stop.
+2023-04-13 13:23:11,277 [INFO] Visit http://localhost:8000/
+2023-04-13 13:23:33,999 [INFO] Serving on port 8000...
+2023-04-13 13:23:33,999 [INFO] Press Ctrl+C to stop.
+2023-04-13 13:23:34,000 [INFO] Visit http://localhost:8000/
+2023-04-13 13:23:39,990 [INFO] Serving on port 8000...
+2023-04-13 13:23:39,990 [INFO] Press Ctrl+C to stop.
+2023-04-13 13:23:39,991 [INFO] Visit http://localhost:8000/
+2023-04-13 13:23:44,684 [INFO] [GET] Request: /
+2023-04-13 13:23:44,686 [ERROR] Controller nep.al not found.
+2023-04-13 13:23:50,238 [INFO] [GET] Request: /shushant/job
+2023-04-13 13:24:09,584 [INFO] Serving on port 8000...
+2023-04-13 13:24:09,584 [INFO] Press Ctrl+C to stop.
+2023-04-13 13:24:09,584 [INFO] Visit http://localhost:8000/
+2023-04-13 13:24:11,206 [INFO] [GET] Request: /shushant/job
+2023-04-13 13:24:30,647 [INFO] Serving on port 8000...
+2023-04-13 13:24:30,647 [INFO] Press Ctrl+C to stop.
+2023-04-13 13:24:30,648 [INFO] Visit http://localhost:8000/
+2023-04-13 13:24:32,102 [INFO] [GET] Request: /shushant/job
+2023-04-13 13:25:34,370 [INFO] Serving on port 8000...
+2023-04-13 13:25:34,371 [INFO] Press Ctrl+C to stop.
+2023-04-13 13:25:34,371 [INFO] Visit http://localhost:8000/
+2023-04-13 13:25:35,521 [INFO] [GET] Request: /shushant/job
+2023-04-13 13:26:02,299 [INFO] Serving on port 8000...
+2023-04-13 13:26:02,300 [INFO] Press Ctrl+C to stop.
+2023-04-13 13:26:02,300 [INFO] Visit http://localhost:8000/
+2023-04-13 13:26:03,148 [INFO] [GET] Request: /shushant/job
+2023-04-13 13:26:35,304 [INFO] Serving on port 8000...
+2023-04-13 13:26:35,304 [INFO] Press Ctrl+C to stop.
+2023-04-13 13:26:35,304 [INFO] Visit http://localhost:8000/
+2023-04-13 13:26:36,796 [INFO] [GET] Request: /shushant/job
+2023-04-13 13:27:36,753 [INFO] Serving on port 8000...
+2023-04-13 13:27:36,753 [INFO] Press Ctrl+C to stop.
+2023-04-13 13:27:36,753 [INFO] Visit http://localhost:8000/
+2023-04-13 13:27:40,801 [INFO] [GET] Request: /shushant/job
+2023-04-13 13:27:42,409 [INFO] [GET] Request: /shushant/job
+2023-04-13 13:27:42,919 [INFO] [GET] Request: /shushant/job
+2023-04-13 13:27:43,395 [INFO] [GET] Request: /shushant/job
+2023-04-13 13:27:59,845 [INFO] Serving on port 8000...
+2023-04-13 13:27:59,846 [INFO] Press Ctrl+C to stop.
+2023-04-13 13:27:59,846 [INFO] Visit http://localhost:8000/
+2023-04-13 13:28:00,829 [INFO] [GET] Request: /shushant/job
+2023-04-13 13:28:01,627 [INFO] [GET] Request: /shushant/job
+2023-04-13 13:28:01,810 [INFO] [GET] Request: /shushant/job
+2023-04-13 13:28:11,458 [INFO] Serving on port 8000...
+2023-04-13 13:28:11,458 [INFO] Press Ctrl+C to stop.
+2023-04-13 13:28:11,459 [INFO] Visit http://localhost:8000/
+2023-04-13 13:28:12,400 [INFO] [GET] Request: /shushant/job
+2023-04-13 13:28:52,720 [INFO] Serving on port 8000...
+2023-04-13 13:28:52,721 [INFO] Press Ctrl+C to stop.
+2023-04-13 13:28:52,721 [INFO] Visit http://localhost:8000/
+2023-04-13 13:29:13,114 [INFO] [GET] Request: /shushant/job
+2023-04-13 13:29:35,718 [INFO] Serving on port 8000...
+2023-04-13 13:29:35,718 [INFO] Press Ctrl+C to stop.
+2023-04-13 13:29:35,718 [INFO] Visit http://localhost:8000/
+2023-04-13 13:29:36,547 [INFO] [GET] Request: /shushant/job
+2023-04-13 13:29:51,682 [INFO] Serving on port 8000...
+2023-04-13 13:29:51,683 [INFO] Press Ctrl+C to stop.
+2023-04-13 13:29:51,683 [INFO] Visit http://localhost:8000/
+2023-04-13 13:29:52,644 [INFO] [GET] Request: /shushant/job
+2023-04-13 13:30:38,683 [INFO] Serving on port 8000...
+2023-04-13 13:30:38,683 [INFO] Press Ctrl+C to stop.
+2023-04-13 13:30:38,683 [INFO] Visit http://localhost:8000/
+2023-04-13 13:30:39,575 [INFO] [GET] Request: /shushant/job
+2023-04-13 13:31:04,473 [INFO] Serving on port 8000...
+2023-04-13 13:31:04,474 [INFO] Press Ctrl+C to stop.
+2023-04-13 13:31:04,474 [INFO] Visit http://localhost:8000/
+2023-04-13 13:31:06,570 [INFO] [GET] Request: /shushant/job
+2023-04-13 13:31:38,821 [INFO] [GET] Request: /shushant/job
+2023-04-13 13:31:49,017 [INFO] [GET] Request: /shushant/job
+2023-04-13 13:32:32,611 [INFO] [GET] Request: /shushant/job
+2023-04-13 13:33:09,708 [INFO] Serving on port 8000...
+2023-04-13 13:33:09,709 [INFO] Press Ctrl+C to stop.
+2023-04-13 13:33:09,709 [INFO] Visit http://localhost:8000/
+2023-04-13 13:33:22,290 [INFO] Serving on port 8000...
+2023-04-13 13:33:22,291 [INFO] Press Ctrl+C to stop.
+2023-04-13 13:33:22,291 [INFO] Visit http://localhost:8000/
+2023-04-13 13:33:30,589 [INFO] [GET] Request: /
+2023-04-13 13:33:30,590 [ERROR] Controller nep.al not found.
+2023-04-13 13:33:37,692 [INFO] Serving on port 8000...
+2023-04-13 13:33:37,692 [INFO] Press Ctrl+C to stop.
+2023-04-13 13:33:37,692 [INFO] Visit http://localhost:8000/
+2023-04-13 13:33:39,066 [INFO] [GET] Request: /
+2023-04-13 13:34:58,344 [INFO] Serving on port 8000...
+2023-04-13 13:34:58,345 [INFO] Press Ctrl+C to stop.
+2023-04-13 13:34:58,345 [INFO] Visit http://localhost:8000/
+2023-04-13 13:35:42,336 [INFO] Serving on port 8000...
+2023-04-13 13:35:42,336 [INFO] Press Ctrl+C to stop.
+2023-04-13 13:35:42,336 [INFO] Visit http://localhost:8000/
+2023-04-13 13:36:06,029 [INFO] [POST] Request: /domain/age
+2023-04-13 13:36:28,462 [INFO] Serving on port 8000...
+2023-04-13 13:36:28,462 [INFO] Press Ctrl+C to stop.
+2023-04-13 13:36:28,462 [INFO] Visit http://localhost:8000/
+2023-04-13 13:36:30,577 [INFO] [POST] Request: /domain/age
+2023-04-13 13:36:38,659 [INFO] Serving on port 8000...
+2023-04-13 13:36:38,660 [INFO] Press Ctrl+C to stop.
+2023-04-13 13:36:38,660 [INFO] Visit http://localhost:8000/
+2023-04-13 13:36:40,686 [INFO] [POST] Request: /domain/age
+2023-04-13 13:37:09,303 [INFO] [POST] Request: /domain/age
+2023-04-13 13:37:49,711 [INFO] Serving on port 8000...
+2023-04-13 13:37:49,712 [INFO] Press Ctrl+C to stop.
+2023-04-13 13:37:49,712 [INFO] Visit http://localhost:8000/
+2023-04-13 13:37:51,736 [INFO] [POST] Request: /domain/age
+2023-04-13 13:38:28,850 [INFO] [POST] Request: /domain/age
+2023-04-13 13:38:49,108 [INFO] Serving on port 8000...
+2023-04-13 13:38:49,109 [INFO] Press Ctrl+C to stop.
+2023-04-13 13:38:49,109 [INFO] Visit http://localhost:8000/
+2023-04-13 13:38:51,597 [INFO] [POST] Request: /domain/age
+2023-04-13 13:39:55,146 [INFO] Serving on port 8000...
+2023-04-13 13:39:55,147 [INFO] Press Ctrl+C to stop.
+2023-04-13 13:39:55,147 [INFO] Visit http://localhost:8000/
+2023-04-13 13:40:04,627 [INFO] [POST] Request: /domain/age
+2023-04-13 13:41:01,549 [INFO] Serving on port 8000...
+2023-04-13 13:41:01,549 [INFO] Press Ctrl+C to stop.
+2023-04-13 13:41:01,549 [INFO] Visit http://localhost:8000/
+2023-04-13 13:41:04,753 [INFO] [POST] Request: /domain/age
+2023-04-13 13:41:18,446 [INFO] Serving on port 8000...
+2023-04-13 13:41:18,447 [INFO] Press Ctrl+C to stop.
+2023-04-13 13:41:18,447 [INFO] Visit http://localhost:8000/
+2023-04-13 13:41:20,304 [INFO] [POST] Request: /domain/age
+2023-04-13 13:45:10,247 [INFO] Serving on port 8000...
+2023-04-13 13:45:10,247 [INFO] Press Ctrl+C to stop.
+2023-04-13 13:45:10,247 [INFO] Visit http://localhost:8000/
+2023-04-13 13:45:13,339 [INFO] [GET] Request: /
+2023-04-13 13:45:53,152 [INFO] [GET] Request: /domain/age
+2023-04-13 13:45:53,154 [ERROR] Method GET not found in domain.age
+2023-04-13 13:45:53,167 [INFO] [GET] Request: /domain/age
+2023-04-13 13:45:53,168 [ERROR] Method GET not found in domain.age
+2023-04-13 13:45:53,171 [INFO] [GET] Request: /domain/age
+2023-04-13 13:45:53,173 [ERROR] Method GET not found in domain.age
+2023-04-13 13:46:51,441 [INFO] Serving on port 8000...
+2023-04-13 13:46:51,441 [INFO] Press Ctrl+C to stop.
+2023-04-13 13:46:51,441 [INFO] Visit http://localhost:8000/
+2023-04-13 13:46:53,088 [INFO] [POST] Request: /domain/age
+2023-04-13 13:47:36,217 [INFO] [POST] Request: /domain/age
+2023-04-13 13:48:29,459 [INFO] [POST] Request: /domain/age
+2023-04-13 13:50:16,193 [INFO] Serving on port 8000...
+2023-04-13 13:50:16,193 [INFO] Press Ctrl+C to stop.
+2023-04-13 13:50:16,193 [INFO] Visit http://localhost:8000/
+2023-04-13 13:50:18,990 [INFO] [POST] Request: /domain/age
+2023-04-13 13:50:41,421 [INFO] Serving on port 8000...
+2023-04-13 13:50:41,421 [INFO] Press Ctrl+C to stop.
+2023-04-13 13:50:41,421 [INFO] Visit http://localhost:8000/
+2023-04-13 13:50:52,760 [INFO] [POST] Request: /domain/age
+2023-04-13 13:52:00,066 [INFO] [POST] Request: /domain/age
+2023-04-13 13:52:19,102 [INFO] [POST] Request: /domain/age
+2023-04-13 13:52:37,690 [INFO] [POST] Request: /domain/age
+2023-04-13 13:52:47,131 [INFO] [POST] Request: /domain/age
+2023-04-13 13:52:57,484 [INFO] [POST] Request: /domain/age
+2023-04-13 13:53:06,312 [INFO] [POST] Request: /domain/age
+2023-04-13 13:53:19,415 [INFO] [POST] Request: /domain/age
+2023-04-13 13:54:21,787 [INFO] Serving on port 8000...
+2023-04-13 13:54:21,787 [INFO] Press Ctrl+C to stop.
+2023-04-13 13:54:21,787 [INFO] Visit http://localhost:8000/
+2023-04-13 13:54:38,804 [INFO] [POST] Request: /domain/age
+2023-04-13 13:54:45,252 [INFO] [POST] Request: /domain/age
+2023-04-13 13:54:46,704 [INFO] [POST] Request: /domain/age
+2023-04-13 13:54:47,741 [INFO] [POST] Request: /domain/age
+2023-04-13 13:54:48,706 [INFO] [POST] Request: /domain/age
+2023-04-13 13:54:51,215 [INFO] [POST] Request: /domain/age
+2023-04-13 13:54:55,328 [INFO] [POST] Request: /domain/age
+2023-04-13 13:55:35,755 [INFO] Serving on port 8000...
+2023-04-13 13:55:35,756 [INFO] Press Ctrl+C to stop.
+2023-04-13 13:55:35,757 [INFO] Visit http://localhost:8000/
+2023-04-13 13:55:38,227 [INFO] [POST] Request: /domain/age
+2023-04-13 13:55:57,801 [INFO] Serving on port 8000...
+2023-04-13 13:55:57,801 [INFO] Press Ctrl+C to stop.
+2023-04-13 13:55:57,801 [INFO] Visit http://localhost:8000/
+2023-04-13 13:55:59,653 [INFO] [POST] Request: /domain/age
+2023-04-13 13:56:09,954 [INFO] [POST] Request: /domain/age
+2023-04-13 13:56:15,106 [INFO] [POST] Request: /domain/age

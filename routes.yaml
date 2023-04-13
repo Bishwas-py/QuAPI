@@ -1,12 +1,14 @@
+root: nep.al
 resources:
   - home
   - post
+  - domain
 tweaks:
   controller:
     home.home:
-      path: /happy/ # this path is primary
-      allowed_methods: [ GET ]
+      path: / # this path is primary
+      allowed_methods: [ GET, POST ]
       unique: true
   path:
     /favicon.ico: # this path is secondary
-      controller: home.home
+      controller: error_handler.not_found

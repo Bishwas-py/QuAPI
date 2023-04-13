@@ -35,8 +35,6 @@ def render_api(environ):
         # now, we need to get the controller name
         # the controller name is the name of the controller file; for /home it's home/index.py
         # it doesn't use .get() because we want to raise an error if the path doesn't exist; aggressive
-        print(paths)
-        print(request.path)
         controller_name = paths[request.path]['controller_name']
     except KeyError:
         if ENV == "production":
@@ -77,7 +75,9 @@ def render_api(environ):
 
 # main server handler
 def app(environ, start_response):
-    raw, response = render_api(environ)
+    raw, response_status = render_api(environ)
+    print('raw', raw)
+    print('response', response_status)
     dumped_data = ''
     dumped_data_content_type = None
     access_control_allow_origin = '*'
@@ -85,6 +85,10 @@ def app(environ, start_response):
     if type(raw) is tuple and len(raw) == 2:
         dumped_data = json.dumps(raw[0])
         dumped_data_content_type = raw[1]
+    elif type(raw) is tuple and len(raw) == 3:
+        dumped_data = raw[0]
+        dumped_data_content_type = raw[1]
+        response_status = raw[2]
     elif type(raw) is list:
         dumped_data = json.dumps(raw)
         dumped_data_content_type = 'application/json'
@@ -98,10 +102,10 @@ def app(environ, start_response):
     dumped_data_content_length = len(dumped_data)
 
     start_response(
-        response, [
+        response_status, [
             ("Content-Type", dumped_data_content_type),
             ("Content-Length", str(dumped_data_content_length)),
-            ("Access-Control-Allow-Origin", access_control_allow_origin)
+            ("Access-Control-Allow-Origin", access_control_allow_origin),
         ]
     )
     return iter([dumped_data.encode("utf-8")])

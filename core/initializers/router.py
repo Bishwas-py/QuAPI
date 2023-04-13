@@ -47,7 +47,9 @@ for key, value in path_tweaks.items():
     # Basically, it's a way to add custom paths to the routes
     # without having to create a specific controller for it.
     paths.update({
-        f"{key}": {'controller_name': value.get("controller")}
+        f"{key}": {
+            'controller_name': value.get("controller")
+        }
     })
 
 if resources:
