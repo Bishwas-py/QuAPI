@@ -37,8 +37,6 @@ def render_api(environ):
         # now, we need to get the controller name
         # the controller name is the name of the controller file; for /home it's home/index.py
         # it doesn't use .get() because we want to raise an error if the path doesn't exist; aggressive
-        print(paths)
-        print(request.path)
         controller_name = paths[request.path]['controller_name']
     except KeyError:
         if ENV == "production":
