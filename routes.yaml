@@ -1,14 +1,11 @@
-root: nep.al
 resources:
-  - home
-  - post
-  - domain
+  - app
 tweaks:
   controller:
     home.home:
       path: / # this path is primary
-      allowed_methods: [ GET, POST ]
+      allowed_methods: [ GET ]
       unique: true
   path:
     /favicon.ico: # this path is secondary
-      controller: error_handler.not_found
+      controller: home.home

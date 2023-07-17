@@ -10,7 +10,7 @@ DX [Developer Experience].
 - [x] Add a generator for creating new controllers
 - [x] Restrict or allow certain methods for a controller
 - [x] Add a feature for tweaking URL/routes; for example, developers can
-  send / to `home.index` or `home.myapp` controller.
+      send / to `home.index` or `home.myapp` controller.
 - [x] Add a feature for tweaking the default controller
 - [x] Add a feature for tweaking paths
 - [ ] Dynamic routing; /users/:id

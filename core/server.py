@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import importlib
 import json
 import logging
@@ -35,6 +37,8 @@ def render_api(environ):
         # now, we need to get the controller name
         # the controller name is the name of the controller file; for /home it's home/index.py
         # it doesn't use .get() because we want to raise an error if the path doesn't exist; aggressive
+        print(paths)
+        print(request.path)
         controller_name = paths[request.path]['controller_name']
     except KeyError:
         if ENV == "production":
@@ -72,40 +76,43 @@ def render_api(environ):
         logging.error(error_message)
         return f"{error_message}", "400 NOT FOUND"
 
+def destruct(dumped_data, response_status=None, dumped_data_content_type=None, access_control_allow_origin=None):
+    if type(dumped_data) is list or type(dumped_data) is dict:
+        dumped_data = json.dumps(dumped_data)
+        dumped_data_content_type = "application/json" if dumped_data_content_type is None else dumped_data_content_type
+    else:
+        dumped_data = str(dumped_data)
+        dumped_data_content_type = "text/plain"
+    
+    dumped_data_content_length = len(dumped_data)
+    
+    if not access_control_allow_origin:
+        access_control_allow_origin = "*"
+    logging.info(f'dumped_data_content_type: {dumped_data_content_type}')
+
+    return dumped_data, response_status, dumped_data_content_type, access_control_allow_origin, dumped_data_content_length
 
 # main server handler
 def app(environ, start_response):
-    raw, response_status = render_api(environ)
-    print('raw', raw)
-    print('response', response_status)
-    dumped_data = ''
-    dumped_data_content_type = None
-    access_control_allow_origin = '*'
+    response_tuple, response_status = render_api(environ)
 
-    if type(raw) is tuple and len(raw) == 2:
-        dumped_data = json.dumps(raw[0])
-        dumped_data_content_type = raw[1]
-    elif type(raw) is tuple and len(raw) == 3:
-        dumped_data = raw[0]
-        dumped_data_content_type = raw[1]
-        response_status = raw[2]
-    elif type(raw) is list:
-        dumped_data = json.dumps(raw)
-        dumped_data_content_type = 'application/json'
-    elif type(raw) is str:
-        dumped_data = raw
-        dumped_data_content_type = "text/plain"
-    elif type(raw) is dict:
-        dumped_data = json.dumps(raw)
-        dumped_data_content_type = "application/json"
+    if type(response_tuple) is not tuple:
+        response_tuple = (response_tuple,)
 
-    dumped_data_content_length = len(dumped_data)
+    (
+        dumped_data, new_response_status, 
+        dumped_data_content_type, access_control_allow_origin, 
+        dumped_data_content_length
+    ) = destruct(*response_tuple)
+
+
+    response_status = new_response_status if new_response_status else response_status
 
     start_response(
         response_status, [
             ("Content-Type", dumped_data_content_type),
             ("Content-Length", str(dumped_data_content_length)),
-            ("Access-Control-Allow-Origin", access_control_allow_origin),
+            ("Access-Control-Allow-Origin", access_control_allow_origin)
         ]
     )
     return iter([dumped_data.encode("utf-8")])
@@ -113,11 +120,19 @@ def app(environ, start_response):
 
 if __name__ == "__main__":
     from wsgiref.simple_server import make_server
+    import argparse
 
-    httpd = make_server("localhost", 8000, app)
-    logging.info("Serving on port 8000...")
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--host', dest='host_name',
+                        type=str, help='Host name to run the server.', default='localhost')
+    parser.add_argument('--port', dest='port_number',
+                        type=int, help='Port number to run the server.', default=8000)
+    args = parser.parse_args()
+    
+    httpd = make_server(args.host_name, args.port_number, app)
+    logging.info(f"Serving on port {args.port_number}...")
     logging.info("Press Ctrl+C to stop.")
-    logging.info('Visit http://localhost:8000/')
+    logging.info(f'Visit http://{args.host_name}:{args.port_number}/')
 
     # Serve until process is killed
     httpd.serve_forever()

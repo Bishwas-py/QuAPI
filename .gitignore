@@ -1,3 +1,9 @@
 venv/
 .idea/
 __pycache__/
+server.log
+Pipfile*
+controllers/*
+controllers/!home/*
+server.log
+db.sqlite3
