@@ -22,11 +22,11 @@ DX [Developer Experience].
 ## How to use?
 
 - Git clone this repository
+- Install dependencies; `pip install -r requirements.txt`
 - Run `./core/generate.py -c <controller_name> <action_name>` to generate a new controller
 - Add a `get` function [or your preferred method] in the `controllers/<controller_name>.py` file
 - Add `<controller_name>` to the `routes.yaml` file
-- Run `./core/server.py` to start the server in the project directory; be sure you are
-  in the project directory
+- Run `make start` to start the server in the project directory;
 - Open your browser and go to `localhost:8080/<controller_name>/<action_name>`
 
 ### How to use `/<controller_name>/` as URL?
